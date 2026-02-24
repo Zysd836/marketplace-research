@@ -1,262 +1,357 @@
 # Phân tích Đối thủ Cạnh tranh — Competitive Landscape
 
-> **Mục tiêu:** Xác định vị thế của ClawFriend trên thị trường AI agent marketplace/economy.
-> Không chỉ liệt kê — phải chỉ ra được **mình thắng ở đâu, thua ở đâu, và gap nào còn bỏ ngỏ.**
+> **Cập nhật:** 24/02/2026
+> **Phạm vi:** Web3 AI agent platform · Bonding curve launchpad · Skill/AI marketplace
 
 ---
 
 ## 1. Tổng quan thị trường
 
-<!--
-RESEARCH CẦN LÀM:
-- Thị trường AI agent platform đang ở giai đoạn nào? (nascent / growing / mature)
-- Tổng market size ước tính
-- Ai đang dẫn đầu theo từng phân khúc?
-- Xu hướng nào đang tăng tốc (on-chain AI, agent economy, skill marketplace)?
--->
+Thị trường AI agent trên Web3 đang ở giai đoạn **growing** — không còn nascent nhưng chưa mature. Năm 2024–2025 là giai đoạn bùng nổ với Virtuals Protocol dẫn đầu segment AI agent tokenization, ElizaOS dẫn đầu framework, Pump.fun thống trị launchpad. Tuy nhiên **không ai sở hữu cả 3 mảnh cùng lúc: bonding curve + autonomous agents + skill marketplace.**
 
-| Chỉ số | Ước tính | Nguồn |
-|--------|----------|-------|
-| Tổng số AI agent platform (Web3) | _[TODO]_ | _[nguồn]_ |
-| Giai đoạn thị trường | _[TODO]_ | _[phân tích]_ |
-| Tốc độ tăng trưởng YoY | _[TODO]_ | _[nguồn]_ |
-| Segment dẫn đầu | _[TODO]_ | _[tên platform]_ |
-
-**Nhận định nhanh:**
-> _[TODO: 2–3 câu mô tả bức tranh tổng thể thị trường]_
+BSC — chain của ClawFriend — hoàn toàn trống về AI agent economy. Virtuals ở Base, ElizaOS DAO ở Solana, SingularityNET ở Ethereum/Cardano. Đây là **gap địa lý + gap sản phẩm** mà ClawFriend đang lấp.
 
 ---
 
-## 2. Bản đồ đối thủ
-
-### Phân loại theo loại hình
-
-```
-                    CÓ BONDING CURVE / TOKENIZATION
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-    Chỉ Social          AI Agent Economy     Chỉ Trading
-  (friend.tech)          (ClawFriend ✓)      (các DEX)
-          │                   │                   │
-          └───────────────────┼───────────────────┘
-                              │
-                   KHÔNG CÓ ON-CHAIN ECONOMICS
-                   (ClawHub, OpenClaw ecosystem)
-```
-
----
-
-## 3. Phân tích từng đối thủ
-
-### 3.1 Virtuals Protocol
+## 2. Đối thủ #1 — Virtuals Protocol
 
 | Mục | Chi tiết |
 |-----|----------|
-| **Link** | https://app.virtuals.io |
-| **Mô tả** | _[TODO]_ |
-| **Chain** | _[TODO]_ |
-| **Số agent/user** | _[TODO — tìm từ on-chain hoặc official stats]_ |
-| **Trading volume** | _[TODO]_ |
-| **Monetization** | _[TODO]_ |
-| **GitHub stars** | _[TODO]_ |
-| **Nguồn số liệu** | _[link nguồn]_ |
+| **URL** | https://app.virtuals.io |
+| **Chain** | Base (90.2% volume) · Ethereum · Solana · Ronin |
+| **Loại** | AI agent tokenization + launchpad |
+| **Trạng thái** | Active — đang tăng trưởng mạnh |
 
-**Điểm mạnh:**
-- _[TODO]_
+### Số liệu thực tế
 
-**Điểm yếu:**
-- _[TODO]_
+| Chỉ số | Số liệu | Nguồn |
+|--------|---------|-------|
+| Tổng agent đã launch | 18,000+ (tăng ~85 agent/ngày) | [PRNewswire, 2025](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-Commerce-at-internet-scale-302686821.html) |
+| Cumulative DEX volume | $8 tỷ USD | [Messari](https://messari.io/report/understanding-virtuals-protocol-a-comprehensive-overview) |
+| Tổng market cap agents | $500M+ | [CoinMarketCap](https://coinmarketcap.com/cmc-ai/virtual-protocol/latest-updates/) |
+| Peak market cap VIRTUAL token | $4.6 tỷ USD (02/01/2025) | [CoinEdition](https://coinedition.com/virtuals-protocol-virtual-price-prediction/) |
+| Daily DEX volume trung bình | $28.4M | [Messari](https://messari.io/report/understanding-virtuals-protocol-a-comprehensive-overview) |
 
-**Bài học cho ClawFriend:**
-- _[TODO: mình học được gì / tránh điều gì từ họ]_
+### Cơ chế phí
+
+- Launch fee: **100 VIRTUAL** để khởi động bonding curve
+- Trading fee: **1%** toàn bộ giao dịch
+- Fee split sau graduation: **30% creator / 70% Agent SubDAO**
+- Graduation threshold: 42,000 VIRTUAL → 1 tỷ token agent được mint, liquidity lock 10 năm
+
+### Điểm mạnh
+
+- Ecosystem lớn nhất trong segment: 18K+ agents, $8B volume
+- Agent Commerce Protocol (ACP): agent-to-agent commerce tự chủ có escrow + settlement
+- Multi-chain đã có: Base, ETH, Solana, Ronin
+- Brand mạnh, funded tốt, cộng đồng lớn
+
+### Điểm yếu / Gap
+
+- **Không có BSC** — 70M+ BSC wallets hoàn toàn không được phục vụ
+- **Không có skill marketplace** — ACP chỉ là agent-to-agent, không có nơi humans browse/buy skills
+- **Không có social layer cho users** — không có profile, follow, feed cộng đồng
+- **Barrier cao** — 100 VIRTUAL launch fee (~$60–100); không thân thiện với creator nhỏ
+- **Không có holder-gated content** — không có cơ chế incentive shares như ClawFriend
+
+### Bài học cho ClawFriend
+
+> Virtuals chứng minh market fit của AI agent tokenization. $8B volume = demand thật. Nhưng họ bỏ ngỏ BSC và bỏ ngỏ skill marketplace cho humans. Đây là entry point của ClawFriend.
 
 ---
 
-### 3.2 friend.tech (hoặc Stars Arena / successor)
+## 3. Đối thủ #2 — friend.tech
 
 | Mục | Chi tiết |
 |-----|----------|
-| **Link** | _[TODO]_ |
-| **Mô tả** | _[TODO]_ |
+| **URL** | https://friend.tech (đã đóng cửa) |
 | **Chain** | Base |
-| **Peak trading volume** | _[TODO — dữ liệu on-chain từ Dune Analytics]_ |
-| **Số users** | _[TODO]_ |
-| **Monetization** | 5% subject fee + 5% protocol fee (tương tự ClawFriend) |
-| **Nguồn số liệu** | _[link Dune dashboard]_ |
+| **Loại** | Bonding curve social — key trading |
+| **Trạng thái** | ⚰️ Dead — contracts revoked 09/2024 |
 
-**Điểm mạnh:**
-- _[TODO]_
+### Số liệu thực tế
 
-**Điểm yếu:**
-- _[TODO: không có AI layer, chỉ là social key — không autonomous]_
+| Chỉ số | Số liệu | Nguồn |
+|--------|---------|-------|
+| Peak TVL | $50M (03/09/2023) | [CoinGape](https://coingape.com/riend-tech-surpasses-50m-tvl/) |
+| Peak daily volume | $18.51M (13/09/2023) | [CoinDesk](https://www.coindesk.com/tech/2023/08/31/scores-of-friendtech-users-remain-active-even-as-trading-volumes-drop-95) |
+| Peak daily active users | 16,000 | Multiple sources |
+| Tổng fees generated (lifetime) | ~$90M | [DL News](https://www.dlnews.com/articles/defi/friend-tech-shuts-down-after-revenue-and-users-plummet/) |
+| Team rút ra | ~$44M (50% tổng fees) | [Yahoo Finance](https://finance.yahoo.com/news/social-platform-friend-tech-shuts-065105515.html) |
+| Revenue 30 ngày cuối | **$21 USD** | [CryptoSlate](https://cryptoslate.com/generating-only-21-in-revenue-in-30-days-friendtech-relinquishes-control-of-contracts/) |
+| FRIEND token decline từ ATH | -98% | [CryptoBriefing](https://cryptobriefing.com/friend-token-crisis-low/) |
 
-**Bài học cho ClawFriend:**
-- _[TODO]_
+### Cơ chế phí (tương đồng ClawFriend)
+
+- Key trading fee: **10% tổng** (5% platform + 5% creator) — **identical với ClawFriend**
+- Bonding curve: quadratic, price tăng theo demand
+
+### Điểm mạnh (ở thời đỉnh)
+
+- First mover: chứng minh bonding curve social có PMF ($90M fees)
+- Twitter/X verification cho creators — cùng cơ chế ClawFriend
+- Creator monetization rõ ràng: 5% perpetual fee
+
+### Điểm yếu — Lý do sụp đổ
+
+- **Không có utility** ngoài việc vào được chatroom private — pure speculation
+- **Không có AI layer** — chỉ là human social keys, không có productive output
+- **Team rug** — rút $44M rồi revoke contract → trust = 0
+- **Không có growth engine** — khi hype tắt, không có reason gì để quay lại
+
+### Bài học quan trọng nhất cho ClawFriend
+
+> friend.tech chứng minh bonding curve 5%/5% fee hoạt động — nhưng sụp đổ vì không có utility thực. ClawFriend giải quyết đúng vấn đề này: agent tạo ra revenue thực (trading, skills, content) → share price có cơ sở fundamental, không chỉ là hype. Đây là differentiation cốt lõi.
 
 ---
 
-### 3.3 ai16z / ELIZA Framework
+## 4. Đối thủ #3 — ElizaOS (ai16z)
 
 | Mục | Chi tiết |
 |-----|----------|
-| **Link** | https://github.com/ai16z/eliza |
-| **Mô tả** | _[TODO]_ |
-| **GitHub stars** | _[TODO — kiểm tra thực tế]_ |
-| **Loại** | Framework (không phải marketplace) |
-| **Monetization** | Open-source + token ($AI16Z) |
-| **Nguồn số liệu** | GitHub, CoinGecko |
+| **URL** | https://elizaos.ai · https://github.com/elizaOS/eliza |
+| **Chain** | Framework agnostic · DAO token trên Solana |
+| **Loại** | Open-source AI agent framework |
+| **Trạng thái** | Active — growing fast |
 
-**Điểm mạnh:**
-- _[TODO]_
+### Số liệu thực tế
 
-**Điểm yếu:**
-- _[TODO: không có skill marketplace, không có bonding curve cho individual agents]_
+| Chỉ số | Số liệu | Nguồn |
+|--------|---------|-------|
+| GitHub stars | 17,389 | [GitHub elizaOS/eliza](https://github.com/elizaOS/eliza) |
+| GitHub forks | 5,432 | [GitHub elizaOS/eliza](https://github.com/elizaOS/eliza) |
+| Plugin registry | 150+ plugins | [elizaos-plugins/registry](https://github.com/elizaos-plugins/registry) |
+| AI16Z token peak market cap | $2 tỷ USD (02/01/2025) | [CryptoBriefing](https://cryptobriefing.com/ai-token-solana-market-cap/) |
+| Ecosystem size hiện tại | ~$645M market cap | [CoinMarketCap](https://coinmarketcap.com/currencies/ai16z/) |
+| Rebrand từ ai16z → ElizaOS | 28/01/2025 | [Invezz](https://invezz.com/news/2025/01/29/ai-agent-ai16z-rebrands-to-elizaos-to-enhance-collaborations-with-web2-and-web3-entities/) |
 
-**Bài học cho ClawFriend:**
-- _[TODO]_
+### Cơ chế phí
+
+- **Framework hoàn toàn miễn phí** (MIT License) — không thu phí gì từ developers
+- DAO model: AI16Z DAO quản lý quỹ qua AI agent "Marc AIndreessen"
+- Không có platform fee, không có marketplace fee
+
+### Điểm mạnh
+
+- Largest open-source agent framework: 17K+ stars, 150+ plugins
+- Model-agnostic: OpenAI, Anthropic, Gemini, Llama, Grok đều support
+- Multi-platform: Discord, Telegram, X/Twitter, GitHub, DeFi protocols
+- Developer community cực lớn và active
+- **OpenClaw chạy trên kiến trúc tương tự** → ClawFriend skill install: `npx clawhub@latest install clawfriend`
+
+### Điểm yếu / Gap
+
+- **Không có marketplace** — framework/SDK, không có nơi list, discover, hay mua/bán skills
+- **Không có bonding curve** — không có cơ chế tokenize individual agents
+- **Không có social layer** — không có community, reputation, hay social graph
+- **Chỉ cho developers** — TypeScript, cần kỹ thuật cao; không có no-code tooling
+- **Không có revenue sharing** — open-source, contributors không earn gì
+- **150+ plugins nhưng không có curation** — chất lượng không đồng đều, không có rating
+
+### Bài học / Cơ hội trực tiếp
+
+> ElizaOS/OpenClaw community (17K+ GitHub stars, hàng triệu users) là **distribution channel sẵn có** cho ClawFriend. ClawFriend skill đã có thể install qua `npx clawhub@latest install clawfriend`. Những developers này đang cần nơi **monetize skills** của họ — ClawFriend Skill Market là câu trả lời.
 
 ---
 
-### 3.4 ClawHub (OpenClaw skill registry)
+## 5. Đối thủ #4 — Pump.fun
 
 | Mục | Chi tiết |
 |-----|----------|
-| **Link** | https://clawhub.ai (hoặc npx clawhub@latest) |
-| **Mô tả** | Registry 5,700+ community skills cho OpenClaw agents |
-| **Số skills** | 5,700+ |
-| **Monetization** | _[TODO: free? premium?]_ |
-| **Liên quan đến ClawFriend** | ClawFriend skill install: `npx clawhub@latest install clawfriend` |
-| **Nguồn số liệu** | _[link]_ |
+| **URL** | https://pump.fun |
+| **Chain** | Solana |
+| **Loại** | Memecoin bonding curve launchpad |
+| **Trạng thái** | Active — market leader trên Solana |
 
-**Điểm mạnh:**
-- _[TODO]_
+### Số liệu thực tế
 
-**Điểm yếu:**
-- _[TODO: không có on-chain economics, không có holder-gated monetization]_
+| Chỉ số | Số liệu | Nguồn |
+|--------|---------|-------|
+| Tokens đã launch (cumulative) | 12.5 triệu+ | [Wikipedia](https://en.wikipedia.org/wiki/Pump.fun) |
+| Token mới hàng ngày | 20,000–30,000 | [CoinMarketCap Academy](https://coinmarketcap.com/academy/article/pumpfun-dominates-solana-network-responsible-for-70percent-of-token-launches-and-56percent-of-transactions) |
+| Daily traders | 200,000–300,000 | [CoinMarketCap Academy](https://coinmarketcap.com/academy/article/pumpfun-dominates-solana-network-responsible-for-70percent-of-token-launches-and-56percent-of-transactions) |
+| Cumulative trading volume | $150 tỷ+ | [DeFiLlama](https://defillama.com/protocol/pump.fun) |
+| Tổng revenue (lifetime) | $834 triệu+ | [Blockworks](https://blockworks.co/news/pumpdotfun-fee-model) |
+| Peak monthly revenue | $138 triệu | [CryptoPotato](https://cryptopotato.com/pump-fun-leads-as-solana-app-revenue-hits-2-4b-in-2025/) |
+| PUMP token raise (07/2025) | $1.3 tỷ ($600M public + $700M private) | [CoinDesk](https://www.coindesk.com/coindesk-news/2025/12/10/most-influential-pump-fun) |
+| Thị phần Solana token launch | 70–80% | [CoinMarketCap Academy](https://coinmarketcap.com/academy/article/pumpfun-dominates-solana-network-responsible-for-70percent-of-token-launches-and-56percent-of-timestamps) |
 
-**Bài học / Cơ hội:**
-- _[TODO: 5,700 skills = potential content pipeline cho ClawFriend Skill Market]_
+### Cơ chế phí
+
+- Token creation: **miễn phí**
+- Bonding curve trading fee: **1%** (buy + sell)
+- Graduation fee: 0.015 SOL one-time
+- Post-graduation (PumpSwap): 0.3% trading fee
+- **Creator nhận 0%** — toàn bộ fee về platform
+
+### Điểm mạnh
+
+- UX đơn giản nhất thị trường: launch token trong < 30 giây
+- Anti-rug mechanism: liquidity lock, dev tokens burn khi graduate
+- $834M+ revenue chứng minh bonding curve launchpad có PMF khổng lồ
+- Network effect mạnh: 70–80% market share trên Solana
+
+### Điểm yếu / Gap
+
+- **Không có AI gì** — thuần memecoin, zero AI functionality
+- **Creator nhận 0%** — không có creator economy, không có incentive build
+- **99%+ tokens thất bại** — less than 1% graduate; market là pure speculation
+- **Solana-only** — BSC users không tiếp cận được
+- **Không có social layer, không có skill market, không có utility**
+- **Regulatory risk** — đang bị kiện ở nhiều jurisdiction
+
+### Bài học cho ClawFriend
+
+> Pump.fun chứng minh bonding curve launchpad tạo ra hàng trăm triệu dollar revenue. Nhưng model của họ không có creator economy (0% về creator) và không có utility. ClawFriend làm ngược lại: creator nhận 5% perpetual fee, agent tạo ra utility thực. Đây là "Pump.fun for AI agents" nhưng với creator economy thực sự.
 
 ---
 
-### 3.5 SingularityNET
+## 6. Đối thủ #5 — SingularityNET
 
 | Mục | Chi tiết |
 |-----|----------|
-| **Link** | https://singularitynet.io |
-| **Mô tả** | _[TODO]_ |
-| **Token** | AGIX |
-| **Market cap** | _[TODO — CoinGecko]_ |
-| **Số AI services** | _[TODO]_ |
-| **Monetization** | _[TODO]_ |
-| **Nguồn số liệu** | _[link]_ |
+| **URL** | https://singularitynet.io · https://marketplace.singularitynet.io |
+| **Chain** | Ethereum + Cardano (multi-chain) |
+| **Loại** | Decentralized AI service marketplace |
+| **Trạng thái** | Declining — academic focus, low traction |
 
-**Điểm mạnh:**
-- _[TODO]_
+### Số liệu thực tế
 
-**Điểm yếu:**
-- _[TODO: phức tạp, UX kém, không có social layer]_
+| Chỉ số | Số liệu | Nguồn |
+|--------|---------|-------|
+| AI services trên marketplace | 70+ | [SingularityNET Dev Portal](https://dev.singularitynet.io/docs/products/AIMarketplace/) |
+| AGIX market cap (10/2025) | ~$455M | [Coincub](https://coincub.com/price-prediction/agix/) |
+| AGIX current price | ~$0.067 | [CoinStats](https://coinstats.app/coins/singularitynet/) |
+| Discord community | 3,488 members | Official Discord |
+| Đầu tư infrastructure (2024) | $53M (supercomputer Tenstorrent) | [Annual Report 2024](https://medium.com/singularitynet/singularitynet-annual-report-2024-advancing-beneficial-agi-and-decentralized-ai-e2ea838edaf7) |
+| Founded | 2017 | — |
 
-**Bài học cho ClawFriend:**
-- _[TODO]_
+### Cơ chế phí
 
----
+- Payment bằng AGIX token (đang migrate sang ASI/FET)
+- Developer tự set giá cho AI services
+- Platform lấy % (không public con số cụ thể)
+- Staking AGIX để participate governance + earn rewards
+- RFAI bounties: user post bounty, developer earn bằng cách fulfil
 
-### 3.6 [Đối thủ 6] — _[Tên]_
+### Điểm mạnh
 
-<!-- Gợi ý tìm: Fetch.ai, Autonolas, AgentLayer, Theoriq, Morpheus -->
+- Oldest player (2017): credibility lâu đời
+- AI marketplace concept đúng hướng
+- Infrastructure nghiêm túc: $53M supercomputer investment
+- AGI research framework (OpenCog Hyperon)
 
-| Mục | Chi tiết |
-|-----|----------|
-| **Link** | _[TODO]_ |
-| **Mô tả** | _[TODO]_ |
-| **Chain** | _[TODO]_ |
-| **Key metric** | _[TODO]_ |
-| **Monetization** | _[TODO]_ |
+### Điểm yếu / Gap
 
-**Điểm mạnh / yếu / bài học:**
-- _[TODO]_
+- **Chỉ 70+ services sau 7+ năm** — growth cực kỳ chậm, adoption thấp
+- **Không có bonding curve, không có agent tokenization** — service là static API, không phải tradeable asset
+- **Không có social layer** — không có community, profile, hay reputation
+- **UX rất kém** — targeting AI researchers, không phải retail users
+- **Token chaos**: AGIX → ASI merger 2024, Ocean Protocol rời ASI 10/2025 → confusion
+- **Không có BSC**
+- **Không autonomous** — services là APIs cố định, không phải agents tự học và thích nghi
 
----
+### Bài học cho ClawFriend
 
-### 3.7 [Đối thủ 7] — _[Tên]_
-
-<!-- Gợi ý: Pump.fun (nếu phân tích bonding curve mechanics), Daos.fun -->
-
-| Mục | Chi tiết |
-|-----|----------|
-| **Link** | _[TODO]_ |
-| **Key metric** | _[TODO — on-chain từ Dune/DefiLlama]_ |
-
-**Điểm mạnh / yếu / bài học:**
-- _[TODO]_
+> SingularityNET chứng minh decentralized AI marketplace concept đúng nhưng execution sai: quá academic, không có creator economy hấp dẫn, không có gamification. 70 services sau 7 năm vs ClawFriend cần đạt 500+ skills trong năm đầu nhờ holder-gated monetization incentive.
 
 ---
 
-## 4. Bảng so sánh tổng hợp
+## 7. Bảng so sánh tổng hợp
 
-| Platform | Chain | Bonding Curve | AI Agents | Skill Market | Social Layer | Status |
-|----------|-------|:---:|:---:|:---:|:---:|--------|
-| **ClawFriend** | BSC | ✅ | ✅ Autonomous | ✅ Holder-gated | ✅ | Live |
-| Virtuals Protocol | _[TODO]_ | _[?]_ | _[?]_ | ❌ | _[?]_ | _[TODO]_ |
-| friend.tech | Base | ✅ | ❌ | ❌ | ✅ (humans) | Declining |
-| ai16z/ELIZA | Multi | ❌ | ✅ Framework | ❌ | ❌ | Growing |
-| ClawHub | Off-chain | ❌ | ❌ | ✅ (5,700+) | ❌ | Active |
-| SingularityNET | ETH/C | ❌ | _[?]_ | ✅ AI services | ❌ | Mature |
-| _[TODO 6]_ | | | | | | |
-| _[TODO 7]_ | | | | | | |
+| Feature | Virtuals | friend.tech | ElizaOS | Pump.fun | SingularityNET | **ClawFriend** |
+|---------|:--------:|:-----------:|:-------:|:--------:|:--------------:|:--------------:|
+| Chain | Base/ETH/SOL | Base (dead) | SOL | SOL | ETH/ADA | **BSC** |
+| Bonding curve | ✅ agents | ✅ keys | ❌ | ✅ memecoins | ❌ | ✅ **agents** |
+| Autonomous AI agents | ✅ | ❌ | ✅ framework | ❌ | ⚠️ static APIs | ✅ |
+| Skill marketplace (humans) | ❌ | ❌ | ❌ | ❌ | ⚠️ limited | ✅ |
+| Holder-gated content | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Social layer | ⚠️ minimal | ✅ chat only | ❌ | ❌ | ❌ | ✅ |
+| Creator fee | 30% (token) | 5% keys | ❌ | **0%** | self-set | **5% perpetual** |
+| BSC native | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Status | 🟢 Growing | ⚰️ Dead | 🟢 Growing | 🟢 Dominant | 🔴 Declining | 🔵 Building |
 
 ---
 
-## 5. Phân tích Gap thị trường
+## 8. Gap phân tích
 
-### Những gì thị trường đang thiếu
+### Gap 1: Không ai có cả 3 trong 1 hệ sinh thái
 
 ```
-Gap 1: Không ai kết hợp bonding curve + autonomous AI agents trong cùng 1 platform
-→ ClawFriend đang lấp gap này
+Bonding curve + Autonomous agents + Skill marketplace = ClawFriend (duy nhất)
 
-Gap 2: Skill marketplace hiện tại (ClawHub) không có monetization cho creators
-→ ClawFriend Skill Market: holder-gated = creators earn thông qua share demand
-
-Gap 3: AI agents thiếu on-chain identity và reputation system
-→ ClawFriend: mỗi agent có verifiable Twitter + on-chain history + share price làm reputation proxy
+Virtuals: có bonding curve + agents, KHÔNG có skill marketplace
+ElizaOS: có agents, KHÔNG có bonding curve + marketplace
+Pump.fun: có bonding curve, KHÔNG có agents + marketplace
+SingularityNET: có marketplace, KHÔNG có bonding curve + autonomous agents
 ```
 
-### Nguồn data để verify gaps
+### Gap 2: BSC hoàn toàn trống
 
-- _[TODO: dữ liệu hỗ trợ từng gap]_
+```
+BSC có ~70M+ wallets đã active, retail-heavy, chi phí gas thấp.
+Không có AI agent economy nào trên BSC.
+Virtuals, Pump.fun, ElizaOS đều bỏ ngỏ BSC.
+→ ClawFriend là platform AI agent đầu tiên và duy nhất trên BSC.
+```
+
+### Gap 3: Creator không được trả xứng đáng
+
+```
+Pump.fun: creator nhận 0% trading fees
+ElizaOS: open-source, creator nhận $0
+SingularityNET: phức tạp, adoption thấp → creator thực tế kiếm rất ít
+
+ClawFriend: 5% perpetual trading fee → $10K daily volume = $500/ngày = $15K/tháng
+→ Đây là creator economy thực sự, có thể quantify được
+```
 
 ---
 
-## 6. Kết luận & Định vị
+## 9. Kết luận & Định vị
 
 ### Mình thắng ở đâu
 
-> _[TODO: 3–5 bullet points cụ thể, có số liệu]_
->
-> Ví dụ: "Virtuals Protocol có X agent nhưng không có skill marketplace → users muốn agent smarter phải dùng ClawFriend"
+1. **BSC monopoly**: không ai cạnh tranh trực tiếp trên BSC cho AI agent economy
+2. **Complete stack**: bonding curve + autonomous agents + skill marketplace + social layer trong 1 platform — không đối thủ nào làm được
+3. **Creator economics tốt nhất**: 5% perpetual fee rõ ràng hơn Virtuals (30% phức tạp), tốt hơn Pump.fun (0%), có thể quantify được
+4. **Holder-gated monetization**: không đối thủ nào có cơ chế này — unique incentive để buy shares
+5. **Lesson learned từ friend.tech**: cùng fee model (5%+5%) nhưng có utility thực từ AI agents
 
 ### Mình thua ở đâu (thành thật)
 
-> _[TODO: nhận diện điểm yếu thực sự — liquidity, user base, brand awareness]_
+1. **Brand awareness**: Virtuals có $4.6B peak market cap, ElizaOS có 17K GitHub stars — chúng ta gần như zero brand recognition
+2. **Ecosystem size**: 18,000+ agents (Virtuals) vs chúng ta đang ở giai đoạn đầu
+3. **BSC perception**: BSC có stigma là chain kém prestige hơn Base/Ethereum với nhiều developer
 
-### Segment chúng ta đánh vào
+### Segment cụ thể ClawFriend đánh vào
 
-> _[TODO: mô tả segment cụ thể — ví dụ: "OpenClaw users (135K+ GitHub stars) đang cần nơi monetize skill"]_
+- **OpenClaw/ElizaOS developers** cần nơi monetize skills → Skill Market
+- **BSC retail users** muốn participate AI agent economy → Share Trading
+- **AI agent creators** muốn earn perpetual income → Creator Fee model
+- **DeFi traders** muốn exposure vào AI agent narrative với on-chain transparency
 
-### Lợi thế cạnh tranh bền vững
+### Lợi thế cạnh tranh bền vững (moat)
 
-> _[TODO: moat thực sự là gì — network effects, on-chain lock-in, creator incentives]_
+- **On-chain agent history**: reputation không thể fake hay migrate — verifiable on BSC forever
+- **Creator flywheel**: better skills → more shareholders → higher price → creators earn more → publish more skills
+- **First-mover trên BSC**: khó bị copy nhanh vì network effects tích lũy theo thời gian
 
 ---
 
 ## Nguồn tham khảo
 
-- _[TODO: liệt kê tất cả nguồn đã dùng với link]_
-- Dune Analytics: _[link dashboard]_
-- DeFiLlama: _[link]_
-- GitHub: _[links]_
-- CoinGecko: _[links]_
-- CoinMarketCap: _[links]_
+- [Virtuals Protocol Whitepaper](https://whitepaper.virtuals.io)
+- [Messari — Understanding Virtuals Protocol](https://messari.io/report/understanding-virtuals-protocol-a-comprehensive-overview)
+- [PRNewswire — Virtuals Revenue Network](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-Commerce-at-internet-scale-302686821.html)
+- [DL News — friend.tech shutdown](https://www.dlnews.com/articles/defi/friend-tech-shuts-down-after-revenue-and-users-plummet/)
+- [CryptoSlate — friend.tech $21 revenue](https://cryptoslate.com/generating-only-21-in-revenue-in-30-days-friendtech-relinquishes-control-of-contracts/)
+- [GitHub — elizaOS/eliza](https://github.com/elizaOS/eliza)
+- [CryptoBriefing — ai16z $2B market cap](https://cryptobriefing.com/ai-token-solana-market-cap/)
+- [Blockworks — Pump.fun fees](https://blockworks.co/news/pumpdotfun-fee-model)
+- [CoinMarketCap Academy — Pump.fun dominance](https://coinmarketcap.com/academy/article/pumpfun-dominates-solana-network-responsible-for-70percent-of-token-launches-and-56percent-of-transactions)
+- [CryptoPotato — Solana app revenue](https://cryptopotato.com/pump-fun-leads-as-solana-app-revenue-hits-2-4b-in-2025/)
+- [CoinDesk — pump.fun Most Influential 2025](https://www.coindesk.com/coindesk-news/2025/12/10/most-influential-pump-fun)
+- [SingularityNET Annual Report 2024](https://medium.com/singularitynet/singularitynet-annual-report-2024-advancing-beneficial-agi-and-decentralized-ai-e2ea838edaf7)
+- [SingularityNET Dev Portal](https://dev.singularitynet.io/docs/products/AIMarketplace/)
+- [Coincub — AGIX market cap](https://coincub.com/price-prediction/agix/)
