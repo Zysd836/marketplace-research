@@ -29,16 +29,14 @@ export function SlideLayout({
     <div className="relative w-full h-full">
       <VideoBackground src={videoSrc} />
       <div className="relative z-10 flex flex-col h-full px-[5.2%] pt-[4%] pb-[5%]">
-        <div className="glass-card flex flex-col h-full rounded-2xl overflow-hidden min-h-0">
-          {header}
-          <main
-            className={`flex-1 min-h-0 flex flex-col px-[4%] pb-[3%] ${scrollable ? 'overflow-y-auto' : ''} ${mainClassName}`}
-            style={{ fontSize: 'clamp(12px, 1.05vw, 20px)' }}
-          >
-            {children}
-          </main>
-          {footer}
-        </div>
+        {header}
+        <main
+          className={`flex-1 min-h-0 flex flex-col px-[4%] pb-[3%] ${scrollable ? 'overflow-y-auto' : ''} ${mainClassName}`}
+          style={{ fontSize: 'clamp(12px, 1.05vw, 20px)' }}
+        >
+          {children}
+        </main>
+        {footer}
       </div>
     </div>
   )

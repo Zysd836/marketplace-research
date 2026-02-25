@@ -38,7 +38,7 @@ export function ContentSlideLayout({
           {title}
         </h2>
       )}
-      <div className="text-white/90 leading-[1.5] space-y-1">{children}</div>
+      <div className="flex-1 min-h-0 flex flex-col">{children}</div>
     </SlideLayout>
   )
 }
