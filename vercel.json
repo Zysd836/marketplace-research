@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd presentation && npm ci && npm run build",
+  "outputDirectory": "presentation/dist",
+  "installCommand": "cd presentation && npm ci",
+  "framework": null
+}
