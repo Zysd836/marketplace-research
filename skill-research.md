@@ -1,6 +1,6 @@
 # Nghiên cứu Skill — Skill Market ClawFriend
 
-> **Mục tiêu:** Xác định 6 skill mà Skill Market của ClawFriend **nên có ngay từ tháng đầu tiên**.
+> **Mục tiêu:** Xác định 5 skill mà Skill Market của ClawFriend **nên có ngay từ tháng đầu tiên**.
 > Mỗi skill có demand thật (data sourced), giải quyết pain point thật, và có chiến lược monetization rõ ràng qua cơ chế holder-gated.
 > Dữ liệu từ 7 phiên research Perplexity (Feb 2026).
 
@@ -225,7 +225,7 @@ Yield aggregator hiện có (Beefy, AutoFarm) giải quyết compound nhưng thu
 | DeFi Saver | $5/tháng Pro | Subscription cố định | Chỉ Venus debt rebalancing; không tích hợp PancakeSwap |
 | Tay | Miễn phí | Chi phí thời gian | 15–30 phút/ngày; kéo giảm 1–3% APY |
 
-**Beefy BSC TVL: $300M+** — xác nhận DeFi user BSC sẵn sàng tối ưu yield và tin tưởng protocol với vốn lớn.
+**Beefy BSC TVL: $10.13M (đầu 2026, nguồn: DeFiLlama)** — giảm từ đỉnh $300M+ xuống 97%. Đây không phải tín hiệu thị trường chết; đây là tín hiệu user BSC đã rời yield aggregator vì phí quá cao. TVL chuyển sang các protocol DeFi khác trên BSC — nhưng nhu cầu tối ưu yield không biến mất.
 
 ### Skill hoạt động thế nào
 
@@ -258,7 +258,7 @@ Holder-gated (phải hold share của agent creator):
 
 | Chỉ số | Số liệu | Nguồn |
 |--------|---------|-------|
-| Beefy Finance BSC TVL | $300M+ | Nghiên cứu S4 |
+| Beefy Finance BSC TVL | $10.13M (đầu 2026) | DeFiLlama (defillama.com/protocol/beefy) |
 | Search: "yield farming automation" | ~30k lượt/tháng | Nghiên cứu S4 |
 | Search: "auto compound BSC" | 10k–20k lượt/tháng | Nghiên cứu S4 |
 | Search: "DeFi portfolio manager" | ~50k lượt/tháng (global) | Nghiên cứu S4 |
@@ -268,7 +268,7 @@ Holder-gated (phải hold share của agent creator):
 | @BeefyFinance (Twitter) | 150k followers | Nghiên cứu S4 |
 | Zapper tổng user | 1M+ (100k+ premium farmer) | Nghiên cứu S1 |
 
-**Con số then chốt:** Beefy $300M BSC TVL ở phí trung bình 2% = $6M/năm phí trích từ BSC farmer — những người sẽ thích một dịch vụ alert không trích phần trăm hơn.
+**Con số then chốt:** Beefy mất 97% TVL trên BSC (từ $300M+ xuống $10.13M). BSC DeFi farmer đã bỏ yield aggregator — không phải vì hết nhu cầu, mà vì không muốn trích 2–4.5% yield liên tục. Cơ hội: advisory tool tư vấn mà không trích phần trăm, phục vụ đúng nhóm user đã rời Beefy.
 
 ### Tính khả thi kỹ thuật
 
@@ -300,8 +300,8 @@ Airdrop farming trên BSC đòi hỏi theo dõi eligibility đồng thời trên
 - Theo dõi deadline bằng spreadsheet để tránh bỏ lỡ cửa sổ claim
 
 **Chi phí thời gian:** 10–15 giờ/tuần cho farmer tích cực; 3–5 giờ đã được tối ưu.
-**Tỷ lệ bỏ lỡ:** 70% airdrop đủ điều kiện không được claim — user đơn giản là không biết kịp thời.
-**Giá trị bỏ lỡ trung bình:** $1.000/user/năm trong airdrop không claim (căn cứ $4,5B phân phối năm 2025 trên ~1M farmer tích cực).
+**Tỷ lệ bỏ lỡ:** ~45% eligible users không claim được — do bỏ lỡ deadline hoặc không biết (nguồn: Earni.fi + ether.fi proxy, claim rate 54.92%).
+**Giá trị bỏ lỡ trung bình:** ~$484/user/năm (avg $1.076 nhận được × 45% miss rate; Binance Alpha data: 268 projects, $150–200M phân phối cho ~3M users BSC).
 
 Tracker hiện tại như Earni.fi (leader của category) bao phủ EVM rộng nhưng không tối ưu cho BSC. AirdropAlert có focus BSC thấp. DeFiLlama yêu cầu check eligibility thủ công. Không có tool nào dự đoán xác suất claim bằng AI.
 
@@ -341,7 +341,7 @@ Holder-gated (phải hold share của agent creator):
 → Bộ lọc ROI (chỉ giá trị ước tính >$50)
 → Alert Telegram: "Bạn đủ điều kiện nhận airdrop [Protocol X] — deadline còn 48 giờ"
 → Phát hiện scam trước khi tương tác với contract
-→ So sánh: $0 tool BSC-specific nào tồn tại → hold 1 share = quyền truy cập cơ hội $1k+/năm
+→ So sánh: $0 tool BSC-specific nào tồn tại → hold 1 share = quyền truy cập $1.076 cơ hội airdrop/năm (avg BSC qualifying user, Binance Alpha data)
 ```
 
 ### Bằng chứng Demand
@@ -353,7 +353,7 @@ Holder-gated (phải hold share của agent creator):
 | Search: "free crypto airdrop" | ~200k lượt/tháng | Nghiên cứu S6 |
 | Tổng giá trị airdrop 2025 | $4,5B phân phối | Nghiên cứu S6 |
 | Airdrop farmer tích cực toàn cầu | 1–2 triệu người | Nghiên cứu S6 |
-| Giá trị bỏ lỡ trung bình/user/năm | ~$1.000 | Nghiên cứu S6 (70% không claim) |
+| Giá trị bỏ lỡ trung bình/user/năm | ~$484 (avg $1.076 × 45% miss rate) | Binance Alpha data + Earni.fi |
 | r/airdropalert | 150k sub; 50+ bài/ngày | Nghiên cứu S6 |
 | r/CryptoAirdrops | 100k sub; hoạt động cao | Nghiên cứu S6 |
 | @AirdropAlert (Twitter) | 500k followers | Nghiên cứu S6 |
@@ -470,110 +470,17 @@ Holder-gated (phải hold share của agent creator):
 
 ---
 
-## Skill #6: Token Launch Intelligence
-
-### Tổng quan
-
-| Mục | Nội dung |
-|-----|----------|
-| **Tên** | Token Launch Intelligence |
-| **Loại** | `skill` (monitor cặp mới + phân tích tức thì) |
-| **Target user** | Early-entry trader theo dõi launch mới trên PancakeSwap; degen sniper quyết định vào lệnh <5 phút |
-| **Visibility đề xuất** | Public (feed launch mới + basic score) → Holder-gated (full analysis tức thì + tín hiệu vào lệnh + Telegram) |
-
-### Vấn đề đang giải quyết
-
-Token launch mới trên BSC đòi hỏi theo dõi và đánh giá đồng thời trong vài phút kể từ khi list:
-- **Discovery**: Theo dõi liên tục tab "New Pairs" trên Dexscreener; kiểm tra PancakeSwap v3 pool mới
-- **Research ngay lập tức**: full safety checklist (xem Skill #2) trước khi quyết định vào
-- **Timing**: token tiềm năng cao có thể x5–x20 trong 10 phút đầu; đến trễ 15 phút = bỏ lỡ cơ hội hoặc mua đỉnh local
-- **Volume**: 100–200 cặp BSC mới mỗi ngày; degen tích cực đánh giá 20–50 token/tuần
-
-Tool hiện tại chia quy trình thành hai workflow tách rời: sniper bot (Maestro $50/tháng, Banana Gun $30/tháng) xử lý execution nhưng không research; safety scanner (TokenSniffer, RugDoc) xử lý research nhưng không discovery hay execution. Không có tool nào bao phủ toàn bộ pipeline từ launch đến entry.
-
-**Pattern thua lỗ:** degen vào nhanh không research → rug rate 70%; degen research trước → cơ hội đã qua. Giải pháp duy nhất là research tự động, tức thì ngay khi phát hiện launch.
-
-### Alternative hiện tại & Pricing
-
-| Tool | Giá | Chức năng | Khoảng trống |
-|------|-----|-----------|-------------|
-| Maestro Bot | $50/tháng | Sniper execution + basic safety | Không có deep research; false negative cao |
-| Banana Gun | $30/tháng | Sniper bot | Chỉ execution; không có phân tích |
-| Token Sniffer | $9.99/tháng | Safety scan | Trigger thủ công; không monitor launch |
-| RugDoc | $19/tháng | Safety audit | Community-based; không real-time |
-| DexScreener | Miễn phí | Discovery cặp mới | Không có safety scoring tích hợp |
-| Tay | Miễn phí | Mọi thứ | 10–15 phút; quá chậm cho launch |
-
-**Không có tool nào kết hợp: phát hiện launch + safety scan tức thì + tín hiệu vào lệnh + Telegram delivery.**
-
-### Skill hoạt động thế nào
-
-1. **Phát hiện launch**: theo dõi PancakeSwap factory contract cho event tạo cặp mới theo thời gian thực
-2. **Phân tích song song tức thì** (kích hoạt trong vòng 30 giây kể từ launch):
-   - Xác minh contract (BscScan)
-   - Honeypot simulation (GoPlus API)
-   - Kiểm tra LP lock (Team Finance/Unicrypt API)
-   - Quy mô và phân phối liquidity ban đầu
-   - Lịch sử ví creator (launch trước, exit patterns)
-   - Tín hiệu xã hội: có buzz Twitter/Telegram pre-launch không?
-3. **Tạo verdict**: LAUNCH-SAFE / CHỜ / TRÁNH kèm top 3 tín hiệu quyết định
-4. **Alert holder**: Telegram push với contract address, giá vào, quy mô liquidity, verdict, link mua one-click (Dexscreener)
-
-Tích hợp Skill #2 (Token Safety Scanner): dùng chung engine phân tích; Skill #6 bổ sung layer monitoring chủ động.
-
-### Chiến lược Visibility & Monetization
-
-```
-Public (miễn phí):
-→ Feed launch token BSC mới: tất cả launch kèm basic safety score (0–100)
-→ Cập nhật mỗi 5 phút; top 10 launch theo quy mô liquidity
-→ Mục tiêu: degen bookmark làm dashboard "new pairs" hàng ngày
-
-Holder-gated (phải hold share của agent creator):
-→ Alert launch real-time: Telegram push trong 60 giây kể từ khi tạo cặp mới
-→ Full instant analysis (6 check + AI verdict)
-→ Mô phỏng pre-entry: "Nếu mua $200 ở liquidity này, slippage ước tính + có exit được không?"
-→ Điểm reputation ví creator: "Ví này đã launch 3 token trước — 2 đã rug"
-→ Kết hợp: thay thế Maestro $30/tháng + TokenSniffer $9.99/tháng + thời gian research thủ công
-```
-
-### Bằng chứng Demand
-
-| Chỉ số | Số liệu | Nguồn |
-|--------|---------|-------|
-| Search: "BSC token analysis" | 20k–30k lượt/tháng | Nghiên cứu S7 |
-| Search: "BSC rug check" | ~40k lượt/tháng | Nghiên cứu S7 |
-| Degen tích cực đánh giá token | 20–50 token/tuần | Nghiên cứu S7 |
-| Thời gian/token (hiện tại) | 10–15 phút | Nghiên cứu S7 |
-| t.me/BSCSnipers | 35k thành viên | Nghiên cứu S1 |
-| r/CryptoMoonShots | 1,2M sub; 100+ bài "Is this safe?" mỗi ngày | Nghiên cứu S7 |
-| Cặp BSC mới mỗi ngày | 100–200 | Quan sát Dexscreener |
-| Chi tiêu tooling retail hiện tại | $20–50/tháng cho 3 tool | Nghiên cứu S7 |
-
-**Insight hành vi:** Top comment trên r/CryptoMoonShots cho mọi bài token mới là "Check rugdoc+BSCscan" — công việc thủ công lặp đi lặp lại mà 1,2M thành viên làm mỗi ngày. Tự động hóa pattern hành vi đơn lẻ này là toàn bộ luận điểm thị trường.
-
-### Tính khả thi kỹ thuật
-
-- PancakeSwap factory contract: event log public cho việc tạo cặp (WebSocket subscription)
-- Dùng chung engine phân tích với Skill #2 — không build từ đầu
-- Mô phỏng pre-entry: GoPlus Security API + dữ liệu token supply BscScan
-- Ước tính build: 2–3 ngày additional trên top of Skill #2 infrastructure
-- Skill có leverage infrastructure cao nhất trong 6 skill
-
----
-
 ## Ma trận tổng hợp
 
 | # | Skill | Mức độ đau | Quy mô thị trường | Khoảng trống BSC | Logic Holder-Gated | Khả thi |
 |---|-------|:---:|:---:|:---:|---|:---:|
 | 1 | BSC Smart Money Tracker | Cao | $200M+ (whale tracking) | Mạnh (incumbents thiên ETH) | Real-time vs delay 15 phút | Trung bình |
 | 2 | BSC Token Safety Scanner | Nghiêm trọng | 1M+ scan/tháng (Token Sniffer) | Mạnh (false positive 30–40%) | Full analysis vs basic score | Dễ |
-| 3 | PancakeSwap Yield Optimizer | Trung bình | $300M+ BSC TVL (Beefy) | Trung bình (Beefy thu phí) | Alert cá nhân hóa vs dashboard chung | Dễ |
-| 4 | BSC Airdrop Intelligence | Cao | $4,5B phân phối 2025 | Nghiêm trọng (không có tool BSC-native) | Eligibility real-time vs digest tuần | Trung bình |
+| 3 | PancakeSwap Yield Optimizer | Trung bình | BSC TVL Beefy $10.13M (giảm 97%) → user rời aggregator | Trung bình (Beefy thu phí) | Alert cá nhân hóa vs dashboard chung | Dễ |
+| 4 | BSC Airdrop Intelligence | Cao | $4,5B phân phối 2025; avg $1.076/user | Nghiêm trọng (không có tool BSC-native) | Eligibility real-time vs digest tuần | Trung bình |
 | 5 | BSC Social Alpha Scanner | Trung bình | $100M+ thị trường sentiment | Nghiêm trọng (không có tool BSC-dedicated) | Alert real-time vs digest ngày | Khó |
-| 6 | Token Launch Intelligence | Nghiêm trọng | Cộng đồng 1,2M CryptoMoonShots | Mạnh (không có combo launch+safety) | Alert tức thì vs refresh thủ công | Dễ (dùng lại Skill #2) |
 
-**Thứ tự ưu tiên launch:** Skill #2 và #6 dùng chung infrastructure — build cùng nhau trước. Skill #1 và #4 giá trị cao độc lập, không có competitor BSC-native. Skill #3 phục vụ user base trả phí lớn nhất (Beefy/AutoFarm TVL holder). Skill #5 phức tạp nhất nhưng tiềm năng viral growth cao nhất qua Social Stream.
+**Thứ tự ưu tiên launch:** Skill #2 trước vì infrastructure dùng lại cho các skill khác. Skill #1 và #4 giá trị cao độc lập, không có competitor BSC-native. Skill #3 phục vụ nhóm đã rời yield aggregator (cơ hội chuyển đổi). Skill #5 phức tạp nhất nhưng tiềm năng viral growth cao nhất qua Social Stream.
 
 ---
 
@@ -581,13 +488,24 @@ Holder-gated (phải hold share của agent creator):
 
 ### Giai đoạn 1 — Seed Content (Tháng 1)
 
-Publish cả 6 skill với public tier hoạt động ngay từ ngày đầu. Public output (daily digest, safety scan dashboard, feed token mới) tạo giá trị SEO/organic độc lập và thiết lập agent ClawFriend là nguồn dữ liệu BSC uy tín — trước khi yêu cầu bất kỳ ai mua share.
+Publish cả 5 skill với public tier hoạt động ngay từ ngày đầu. Public output (daily digest, safety scan dashboard, whale alert feed) tạo giá trị SEO/organic độc lập và thiết lập agent ClawFriend là nguồn dữ liệu BSC uy tín — trước khi yêu cầu bất kỳ ai mua share.
 
-Skill #2 và #6 dùng chung engine phân tích → hai skill với chi phí một lần build. Bắt đầu từ đây.
+Skill #2 có infrastructure dùng lại cho nhiều skill khác — bắt đầu từ đây.
 
 ### Giai đoạn 2 — Kích hoạt Creator Flywheel (Tháng 2–3)
 
-Khi skill ban đầu chứng minh được engagement, mở cho creator bên ngoài tự publish skill. 6 skill trên là reference implementation — cho creator thấy tiêu chuẩn về chất lượng, data sourcing và thiết kế holder-gated.
+Khi skill ban đầu chứng minh được engagement, mở cho creator bên ngoài tự publish skill. 5 skill trên là reference implementation — cho creator thấy tiêu chuẩn về chất lượng, data sourcing và thiết kế holder-gated.
+
+**Lý do tháng 1 chỉ focus DeFi Power User (không phải AI Agent Builder hay Crypto Creator):**
+
+5 skill tháng 1 có chủ đích nhắm vào **DeFi Power User** — persona convert nhanh nhất và tạo ra trading volume share sớm nhất. Đây là demand-side cần thiết để platform có traction trước khi builder muốn join.
+
+AI Agent Builder và Crypto-native Creator là **supply-side** — họ sẽ publish skill và tạo agent khi thấy platform đã có user sẵn sàng buy share. Giai đoạn 2 target đúng nhóm này:
+
+- **AI Agent Builder**: cần skill "Agent Revenue Dashboard" — track invocation count, share price correlation, holder retention. Pain point: phải stitch thủ công Dune + LangSmith + Etherscan. Data đã verify: ai16z/ElizaOS có 5K forks, 567 contributors; creator Virtuals Protocol complain "no cross-agent revenue aggregation"
+- **Crypto-native Creator**: cần skill "AI Persona Content Scheduler" — tự động generate + schedule tweet cho AI agent dựa trên on-chain events. Switch trigger: "agent của tôi tweet và earn khi tôi offline"
+
+Logic sequencing: DeFi user mua share → price tăng → builder thấy earning potential → builder publish skill → content phong phú hơn → nhiều DeFi user hơn buy share.
 
 Profile creator mục tiêu từ tool hiện có:
 - Account whale tracking kiểu Lookonchain (đã có audience BSC sẵn)
@@ -616,7 +534,6 @@ Nguyên tắc thiết kế then chốt: **public tier phải thực sự hữu �
 | Yield Optimizer | Beefy 2% yield (~$1k/năm trên $50K) | Hold X share (không trích phần trăm yield) |
 | Airdrop Intelligence | $0 (không có tool BSC tương đương) | Hold X share |
 | Social Alpha Scanner | LunarCrush $72/tháng (10% BSC coverage) | Hold X share |
-| Launch Intelligence | $80/tháng (Maestro + TokenSniffer) | Hold X share |
 
 Mô hình holder-gated thắng về giá ở hầu hết mọi điểm so sánh — không phải "subscription vs subscription" mà là "phí hàng tháng vs triển khai vốn một lần có giá trị lưu giữ."
 
@@ -624,7 +541,7 @@ Mô hình holder-gated thắng về giá ở hầu hết mọi điểm so sánh 
 
 ## Nguồn tham khảo
 
-Dữ liệu từ 7 phiên research Perplexity (Feb 2026):
+Dữ liệu từ 10 phiên research Perplexity (Feb 2026):
 
 - **S1** — Top 10 pain point DeFi user BSC: `data/skills/I'm building a skill marketplace for AI agents foc.md`
 - **S2** — Thị trường whale/smart money tracking: `data/skills/Research the market for on-chain intelligence and.md`
@@ -633,3 +550,6 @@ Dữ liệu từ 7 phiên research Perplexity (Feb 2026):
 - **S5** — Crypto social sentiment analysis: `data/skills/Research the market for crypto social sentiment an.md`
 - **S6** — Airdrop & token opportunity tracking: `data/skills/Research the market for crypto airdrop tracking an.md`
 - **S7** — Token research & phân tích cơ bản (retail BSC): `data/skills/Research what retail crypto traders on BSC need wh.md`
+- **S8** — Verify Beefy Finance BSC TVL (DeFiLlama): `data/skills/What is the current TVL of Beefy Finance specifica.md`
+- **S9** — Verify airdrop per-user value (Binance Alpha + Earni.fi): `data/skills/What is the average airdrop value received per qua.md`
+- **S10** — Verify Maestro/Banana Gun pricing model: `data/skills/What is the exact pricing model for Maestro Bot an.md`

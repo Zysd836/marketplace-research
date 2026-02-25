@@ -5,6 +5,14 @@
 
 ---
 
+## NORTH STAR QUESTION
+
+> **"Làm thế nào để 1,000 user đầu tiên biết đến, sign up, và dùng ClawFriend trong tháng đầu với $10K budget?"**
+
+Mọi phân tích đối thủ, skill research, và distribution plan đều phải phục vụ câu hỏi này. Đây là tư duy của **trưởng phòng kinh doanh đang lập GTM plan** — không phải tư duy của investor đi tìm market gap.
+
+---
+
 ## CONTEXT QUAN TRỌNG
 
 **ClawFriend là gì:** Web3 AI Agent Platform trên BSC — gồm 4 module:
@@ -13,15 +21,25 @@
 3. **Social Stream** — agents tweet/reply/follow autonomous
 4. **Infrastructure Management** — monitor agent performance
 
-**Feedback từ Ban Giám khảo:** "Nhìn vào bản chất business model để tìm đối thủ" — tìm đối thủ theo cơ chế kiếm tiền, không phải theo category sản phẩm.
-
-**⚠️ QUAN TRỌNG — Các tên trong guidebook CHỈ LÀ VÍ DỤ MINH HỌA, không phải danh sách đối thủ thực:**
+**⚠️ Các tên trong guidebook là GỢI Ý TÌM KIẾM, không phải kết quả research:**
 friend.tech · Virtuals Protocol · ai16z/ELIZA · ClawHub · SingularityNET
 
-Không được dùng các tên này như "đã xong research". Phải tự research từ đầu:
-- Search thực sự: Product Hunt, GitHub trending, DeFi Llama, Dune Analytics, Crypto Twitter
-- Tìm đối thủ theo business model, không phải theo tên BGK gợi ý
-- Nếu sau khi research kỹ thì một số tên trên có xuất hiện lại = OK, nhưng phải có data thực từ nguồn độc lập, không phải copy từ guidebook
+Đây là điểm xuất phát để mở rộng search, không phải danh sách đối thủ hoàn chỉnh. Phải research độc lập:
+- Tìm từ nhiều nguồn: Product Hunt, GitHub trending, DeFi Llama, Dune Analytics, Crypto Twitter, Reddit
+- Nếu sau khi research thì các tên trên xuất hiện lại = OK, nhưng phải có data thực từ nguồn độc lập
+- Mỗi tên trong guidebook là một **hướng tìm kiếm**, không phải câu trả lời
+
+---
+
+## TARGET USER PERSONAS
+
+**Phải biết user là ai trước khi research đối thủ** — nếu không, "đối thủ" chỉ là danh sách platform tồn tại, không phải những kẻ đang cạnh tranh giành user của mình.
+
+| Persona | Mô tả cụ thể | Đang dùng gì / trả bao nhiêu | Pain point thực | Switch trigger |
+|---|---|---|---|---|
+| **AI Agent Builder** | Dev build agent trên OpenClaw/ElizaOS, có 1–3 agents deployed, muốn monetize | GitHub free, HuggingFace free, không có cơ chế kiếm tiền | Build xong không biết cách earn từ agent | "Publish skill 1 lần, earn perpetually từ mọi user hold shares" |
+| **DeFi Power User** | Trader BSC/ETH, portfolio $5K–$50K, trade 3–5x/tuần | Nansen $150/mo, Dexscreener free, Arkham limited free | $100–200/tháng cho analytics, data vẫn delayed | "Hold shares thay vì pay subscription — dùng nhiều hơn không tốn thêm" |
+| **Crypto-native Creator** | KOL/content creator có 1K–50K followers, muốn tạo AI persona | Twitter/X, Telegram, không có economic layer | AI persona không có cơ chế earn money autonomously | "Agent của tôi tweet, build audience, và earn — tôi không cần online 24/7" |
 
 ---
 
@@ -29,7 +47,7 @@ Không được dùng các tên này như "đã xong research". Phải tự rese
 
 ### Deliverable 1 — Competitive Landscape (25đ)
 
-**Mục tiêu:** Tìm và phân tích TẤT CẢ Web3 skill marketplace / plugin store / agent marketplace.
+**Mục tiêu:** Tìm và phân tích TẤT CẢ Web3 skill marketplace / plugin store / agent marketplace — **từ góc nhìn người bán hàng: user của đối thủ đang ở đâu, đang không hài lòng điều gì, và làm sao mình intercept họ.**
 
 **Checklist cứng — thiếu cái nào = trừ điểm:**
 - [ ] Ít nhất **5–10 đối thủ** có link thật, không phải giả định
@@ -81,15 +99,22 @@ Không được dùng các tên này như "đã xong research". Phải tự rese
 
 ## NGUYÊN TẮC TRÌNH BÀY
 
-**Chúng ta đang trình bày sản phẩm của chính mình — không phải làm bài thi.**
+**Viết như một trưởng phòng kinh doanh đang lập GTM plan** — không phải investor pitch, không phải assignment sinh viên.
 
-- Viết như một product strategist / market analyst trình bày cho investor hoặc leadership — không phải sinh viên nộp assignment
-- **Thẳng thắn, không tâng bốc.** Nếu ClawFriend thua ở điểm nào, nói thẳng. Nếu đối thủ làm tốt hơn, nói thẳng. Objectivity = credibility
-- Không dùng ngôn ngữ "hype": "revolutionary", "game-changer", "unprecedented" — nói bằng số liệu và logic
-- Kết luận phải actionable: đọc xong biết làm gì tiếp theo, không phải chỉ để biết
-- Tone: confident, direct, không xin lỗi, không hedging thừa
+Sự khác biệt cụ thể:
 
-**Tiêu chí guidebook là minimum bar — không phải ceiling.** Đáp ứng đủ checklist nhưng chất lượng tư duy phải vượt qua mức "đủ điểm".
+| Investor framing ❌ | Biz dev / GTM framing ✅ |
+|---|---|
+| "Market gap: chưa ai combine 3 module này" | "User Virtuals đang complain X — đây là trigger để họ switch" |
+| "ClawFriend unique vì BSC + skill + bonding curve" | "Kênh nào reach được 1,000 user đầu tiên với CAC thấp nhất?" |
+| "Thị trường nascent, first mover advantage" | "User đang dùng gì hôm nay? Làm sao mình nằm trong workflow của họ?" |
+| Kết luận: "Có cơ hội lớn" | Kết luận: "Tuần sau làm gì, tháng sau expect bao nhiêu signup" |
+
+- **Thẳng thắn, không tâng bốc.** Nếu ClawFriend thua ở điểm nào, nói thẳng. Objectivity = credibility
+- Không dùng ngôn ngữ "hype": "revolutionary", "game-changer", "unprecedented"
+- Kết luận phải actionable — đọc xong biết làm gì tiếp theo
+
+**Tiêu chí guidebook là minimum bar — không phải ceiling.**
 
 ---
 
@@ -97,17 +122,25 @@ Không được dùng các tên này như "đã xong research". Phải tự rese
 
 ### Competitive Landscape — từ 17/25 lên 23+/25
 
-Điểm cao không đến từ số lượng đối thủ. Đến từ **độ sâu insight**.
+Điểm cao không đến từ số lượng đối thủ. Đến từ **độ sâu insight từ góc nhìn bán hàng**.
 
-**Tìm đối thủ theo đúng sản phẩm của mình.** ClawFriend có 3 module có thể bị cạnh tranh:
-- Module Shares Trading (bonding curve) → ai đang làm bonding curve cho assets tương tự?
-- Module Skill Market (buy/sell AI capabilities) → ai đang làm marketplace cho AI skills/plugins/agents?
-- Module Social Stream (autonomous agents with on-chain identity) → ai đang làm AI agent với social presence?
+**Research theo đúng thứ tự — Global trước, BSC sau:**
 
-Đối thủ thực sự = platform overlap với ít nhất 1 trong 3 module này, và có cùng target user (crypto-native users, AI agent creators, DeFi power users trên BSC). Không cần tìm đối thủ lạ — cần tìm đối thủ **đúng**, sau đó phân tích **sâu**.
+1. **GLOBAL** — Ai đang win AI agent / skill marketplace market toàn cầu? (không giới hạn chain)
+2. **BUSINESS MODEL** — Trong số đó, ai dùng bonding curve / perpetual creator fee / skill marketplace?
+3. **USER BEHAVIOR** — User của các platform đó đang complain gì? Tại sao họ rời đi? (Reddit, Twitter, forum)
+4. **BSC SPECIFIC** — Ai đang có traction trên BSC? Overlap với user profile của mình không? (hỏi sau cùng)
 
-- **Insight chiến lược thực sự**: không chỉ "điểm mạnh/điểm yếu" mà phải nói được: *tại sao business model của họ bền hay không bền, và ClawFriend học được gì / tránh được gì*
-- **Kết luận định vị rõ ràng**: ai đang chiếm góc nào, ClawFriend đang nhắm góc nào, tại sao góc đó có giá trị và tại sao ClawFriend có thể thắng ở đó
+Lý do: ClawFriend cần học từ platform đang thắng globally trước khi lo đối thủ BSC (vốn còn rất nhỏ, dữ liệu hạn chế). Nếu chỉ search BSC → bỏ sót 95% insight quan trọng.
+
+**Câu hỏi đúng khi phân tích đối thủ (tư duy biz dev):**
+- ❌ "Đối thủ đang chiếm gap nào?" (investor)
+- ✅ "User của đối thủ đang complain gì trên Reddit/Twitter? Tại sao họ rời đi?"
+- ✅ "Channel nào đối thủ dùng để acquire user? Mình có thể intercept không?"
+- ✅ "Nếu user của platform X switch sang ClawFriend, trigger cụ thể nào khiến họ làm vậy?"
+- ✅ "Đối thủ đang charge bao nhiêu? User của họ có thể access ClawFriend với chi phí thấp hơn không?"
+
+**Insight chiến lược thực sự**: không chỉ "điểm mạnh/điểm yếu" mà phải nói được: *tại sao business model của họ bền hay không bền, và ClawFriend học được gì / tránh được gì*
 
 Điểm cộng: dùng on-chain data thực (DeFi Llama, Dune Analytics) để backup số liệu thay vì chỉ dùng press release của đối thủ.
 
@@ -122,7 +155,7 @@ Không được dùng các tên này như "đã xong research". Phải tự rese
 Đây là phần chiếm 40% — đây là nơi thắng thua thực sự.
 
 - **Unit economics bắt buộc**: mỗi paid channel phải có CPC + conversion rate + CAC + projected users. Không có con số = kế hoạch ý tưởng, không phải kế hoạch thật
-- **Kênh phải fit với BSC ecosystem**: Twitter Ads targeting BSC wallet holders, partnership với PancakeSwap community, BSC Station listing — không phải kênh generic
+- **Kênh phải fit với user personas**: Twitter Ads targeting BSC wallet holders, partnership với OpenClaw community, BSC Station listing — không phải kênh generic
 - **Partnership cụ thể**: đừng viết "hợp tác với các dự án Web3". Viết: "Partnership với OpenClaw community (17K GitHub stars) — đề xuất cụ thể: tạo 1-click install từ OpenClaw marketplace vào ClawFriend, lợi ích: họ có skills phong phú hơn, mình có traffic từ developer community họ"
 - **Intern test**: đọc lại plan và tự hỏi — intern có thể làm theo ngày mai không? Nếu không → chưa đủ chi tiết
 
@@ -138,17 +171,123 @@ Không được dùng các tên này như "đã xong research". Phải tự rese
 ### Về tìm đối thủ
 - Phải tìm theo **business model** (cơ chế kiếm tiền), không chỉ theo category sản phẩm
 - ClawFriend có 3 revenue stream: bonding curve fee · creator perpetual fee · skill marketplace
-- Đối thủ = ai dùng bất kỳ 1 trong 3 cơ chế trên, dù khác ngành
+- Đối thủ = ai dùng bất kỳ 1 trong 3 cơ chế trên, dù khác ngành, dù khác chain
 - Không được viết "chưa ai làm" khi chưa search thật sự
+- **Research global trước** — đừng filter BSC từ đầu
 
 ### Về phân tích
 - Mỗi đối thủ phải có **nhận xét riêng từ góc nhìn user** — tại sao user chọn họ, tại sao user bỏ họ
 - Không copy mô tả từ website của đối thủ
-- Luôn hỏi: "Có gì ClawFriend học được từ đối thủ này?"
+- Luôn hỏi: "User của đối thủ này có phải target user của ClawFriend không? Nếu có, làm sao mình win họ?"
 
 ### Về kết luận
-- Kết luận phải có số liệu: "Đối thủ A có X user nhưng chỉ focus Y → ClawFriend có chỗ vì Z"
+- Kết luận phải có số liệu + action: "Đối thủ A có X user nhưng chỉ focus Y → ClawFriend intercept bằng cách Z"
 - Phải thành thật về điểm yếu của ClawFriend — BGK đánh giá cao tư duy objective
+
+---
+
+## RESEARCH PROMPTS CHO PERPLEXITY/CHATGPT
+
+> Dùng các prompt này để tìm thông tin, sau đó **PHẢI verify từng số liệu** từ nguồn gốc trước khi đưa vào deliverable.
+
+### Prompt A — Tìm đối thủ từ góc user (Global, không filter chain)
+
+```
+I'm launching a platform for AI agent creators to monetize their agents through:
+1. Bonding curve shares trading (creator earns 5% fee on every trade perpetually)
+2. Skill marketplace (creators publish AI skills/prompts/workflows, buyers pay to access)
+3. Holder-gated access (only token holders can access premium skills)
+
+My target users are:
+- AI agent builders who want to monetize (currently using OpenClaw/ElizaOS/HuggingFace with no monetization)
+- DeFi power users spending $100-200/month on analytics tools (Nansen, Arkham)
+- Crypto-native creators wanting AI personas with economic layer
+
+Find every platform — Web2 or Web3, any chain — where these users currently are and what they're paying.
+For each platform:
+1. Platform name + URL
+2. Which of my target user types uses this platform?
+3. What do they pay? (subscription/token/per-use — exact amounts)
+4. What are users complaining about? (Reddit posts, Twitter threads, reviews)
+5. What would trigger a user to leave this platform for an alternative?
+6. Real traction numbers (users, revenue, volume) with source URLs
+
+Focus on platforms with real users, not just whitepapers.
+```
+
+### Prompt B — User pain points research (Reddit/Forum mining)
+
+```
+Search Reddit, Crypto Twitter, and forums for complaints and frustrations about these platforms:
+- AI agent monetization platforms (Virtuals Protocol, ai16z, Bittensor)
+- Crypto analytics subscriptions (Nansen, Arkham, Dune)
+- Bonding curve / social token platforms (friend.tech, pump.fun)
+
+For each platform, find:
+1. Top complaints from users (direct quotes preferred)
+2. What features users wish existed
+3. Why users stopped using or considered leaving
+4. What alternatives users are switching to and why
+
+Sources: Reddit (r/ethereum, r/defi, r/cryptomarkets), Twitter/X, Discord servers, Product Hunt reviews.
+This is for competitive analysis — I need to understand what pain points are unserved.
+```
+
+### Prompt C — Bonding curve / creator fee platforms (Business model match)
+
+```
+Find every platform that uses bonding curve mechanics where:
+- The creator earns a percentage fee on EVERY trade (not just at launch)
+- The underlying asset has utility beyond pure speculation
+- There is some form of access control tied to token ownership
+
+For each platform:
+1. Name + URL + chain
+2. Exact fee split: who gets what % per trade
+3. Does creator earn perpetually or only at launch?
+4. What is the utility of holding the token?
+5. Active trading volume (source: on-chain data, DeFiLlama, Dune)
+6. Creator earnings: what does a successful creator actually earn per month?
+7. What's broken about this model — why do most creators fail?
+```
+
+### Prompt D — Skill/Plugin marketplace economics (Web2 + Web3)
+
+```
+Give me the real economics of existing skill/plugin/agent marketplaces:
+
+1. GPT Store (OpenAI): How much do top creators earn per month? Average creators?
+   What % of creators earn meaningful revenue? What are the top complaints?
+
+2. Hugging Face Hub: Is there any paid model? How do creators monetize?
+
+3. LangChain Hub / LangSmith: Commercial tier? Creator monetization?
+
+4. Any Web3 skill/plugin marketplace with real traction?
+
+For each: revenue split, minimum payout threshold, payment method, creator complaints.
+Source: official docs, creator community posts, public revenue reports.
+I need this to benchmark pricing for a new Web3 skill marketplace.
+```
+
+### Prompt E — BSC-specific acquisition channels
+
+```
+For a new Web3 platform launching on BNB Smart Chain targeting DeFi power users and AI agent builders:
+
+1. What are the highest-ROI acquisition channels specifically for BSC ecosystem?
+   - Which Telegram groups have 10K+ active BSC users?
+   - Which Twitter/X accounts do BSC users follow most?
+   - Which BSC-specific launchpads/directories drive the most traffic to new projects?
+
+2. What did successful BSC projects (PancakeSwap, Binance Launchpad projects) do for user acquisition?
+
+3. What is the typical CPC and conversion rate for Twitter Ads targeting crypto users on BSC?
+
+4. Which Web3 KOLs have BSC-focused audiences?
+
+Source: BSC ecosystem reports, project post-mortems, marketing case studies.
+```
 
 ---
 
@@ -174,7 +313,8 @@ marketplace-research/
 
 | Câu hỏi | Phải trả lời được |
 |---------|-------------------|
-| "Đối thủ X có 50K user, tại sao mình thắng?" | Phân tích cụ thể gap mà đối thủ X không cover |
+| "Đối thủ X có 50K user, tại sao mình thắng?" | User của đối thủ X complain gì? Mình giải quyết được điều đó không? |
 | "Skill này có ai thực sự cần không?" | Bằng chứng: search volume, existing paid tools, forum posts |
 | "$10K có đủ lấy 1,000 user không?" | Unit economics: CPC · conversion rate · CAC · projected signups |
 | "Tại sao user không dùng ChatGPT thay vì skill trên platform?" | Giá trị khác biệt: on-chain data real-time, wallet integration, holder-gated access |
+| "User đầu tiên của mình ở đâu? Làm sao tiếp cận họ ngày mai?" | Kênh cụ thể, action cụ thể, không phải "chạy social media" |
