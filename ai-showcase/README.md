@@ -247,6 +247,67 @@ Thay vì prompt lại context mỗi lần, tạo CLAUDE.md một lần với:
 
 ---
 
+## Flow 5 — Skill Research: 7 Perplexity sessions → skill-research.md
+
+**Vấn đề:** Skill Market cần skills có demand thật. Không thể brainstorm "skills hay ho" rồi viết — phải research xem user đang đau ở đâu, đang trả tiền cho gì, và khoảng trống nào chưa được lấp.
+
+**Prompt Claude nhận:**
+```
+triển tiếp phần skill-research, làm từ đầu nhé
+```
+
+**Claude làm gì:**
+1. Đọc lại CLAWFRIEND_SPEC.md để hiểu target user (BSC retail trader, DeFi-focused, Telegram-native)
+2. Xác định 7 pain point cluster cần validate bằng data thực
+3. Viết 7 Perplexity prompt riêng — mỗi prompt cho 1 cluster, hỏi cả market size lẫn community evidence
+
+**Tại sao 7 prompt riêng thay vì 1 prompt lớn?**
+Một prompt tổng hợp sẽ trả về overview nông. 7 prompt riêng buộc Perplexity tìm số liệu cụ thể: follower count, pricing tier, search volume, subreddit size — data có thể dùng làm bằng chứng trong deliverable.
+
+**7 prompt theo pain point cluster:**
+
+| Prompt | Cluster | Câu hỏi cốt lõi |
+|--------|---------|----------------|
+| S1 | Top 10 BSC pain points | User đang đau ở đâu nhất và trả bao nhiêu? |
+| S2 | Whale/smart money tracking | Ai đang trả $69–$999/tháng cho Nansen và tại sao? |
+| S3 | Rug pull detection | 2.000–5.000 rug/tháng — user đang dùng gì để phòng? |
+| S4 | DeFi yield optimization | Beefy $300M+ TVL — ai đang không hài lòng với yield aggregator? |
+| S5 | Social sentiment analysis | LunarCrush $72/tháng nhưng cover BSC <10% — khoảng trống ở đâu? |
+| S6 | Airdrop tracking | $4,5B airdrop năm 2025 — tại sao 70% không được claim? |
+| S7 | Token research (BSC retail) | Degen mất 10–15 phút/token — họ đang làm gì thủ công? |
+
+**Prompt mẫu (S3 — Rug detection):**
+```
+Research the market for crypto rug pull detection and token security tools,
+specifically for BSC (BNB Smart Chain) where rug pulls are extremely common.
+
+1. What tools exist for detecting potential rug pulls and scam tokens?
+   List each with: URL, price, features, user base
+2. Scale of the problem: How many rug pulls happen on BSC monthly/annually?
+3. Community evidence: r/CryptoMoonShots, BSC-specific communities, Twitter accounts
+4. What's broken about current solutions? False positives/negatives, retail limitations
+```
+
+**Sau khi nhận đủ 7 response:**
+```
+đã có dữ liệu, nếu cần verify hoặc thêm thông tin, bro có thể tự research
+```
+
+→ Claude đọc cả 7 file, cross-reference data points, tổng hợp thành 6 skill với đầy đủ demand evidence.
+
+**Findings quan trọng từ 7 phiên research:**
+
+| Skill | Key finding | Khoảng trống |
+|-------|------------|-------------|
+| BSC Smart Money Tracker | @WhaleAlert 2,5M followers; Nansen $999/mo | Không có tool BSC-first ở mức $5–15/tháng |
+| Token Safety Scanner | Token Sniffer 1M+ scan/tháng; false positive 35% | Không có 1-click verdict + Telegram alert |
+| Yield Optimizer | Beefy $300M+ BSC TVL; trích 2% yield | Không có advisory model (tư vấn, không trích phí) |
+| Airdrop Intelligence | $4,5B airdrop 2025; 70% không claim | Không có tool BSC-native nào ở bất kỳ mức giá |
+| Social Alpha Scanner | BSCSignalsOfficial 120k member | Không có sentiment tool chuyên BSC |
+| Token Launch Intelligence | r/CryptoMoonShots 1,2M sub; "check rugdoc+BSCscan" là top comment | Không có combo launch detection + instant safety |
+
+---
+
 ## Files generated trong quá trình này
 
 ```
@@ -261,6 +322,17 @@ data/competitors/
     ├── Mint Club analysis.md            ← Perplexity response
     └── BNB Chain ecosystem.md           ← Perplexity response
 
-competitive-landscape.md                ← Final output (Claude synthesize)
+data/skills/
+├── _PROMPTS.md                          ← 7 prompts skill research (Claude viết)
+├── S1 — BSC pain points.md             ← Perplexity response
+├── S2 — Whale tracking.md              ← Perplexity response
+├── S3 — Rug pull detection.md          ← Perplexity response
+├── S4 — DeFi automation.md             ← Perplexity response
+├── S5 — Social sentiment.md            ← Perplexity response
+├── S6 — Airdrop tracking.md            ← Perplexity response
+└── S7 — Token research BSC.md          ← Perplexity response
+
+competitive-landscape.md                ← Final output (Claude synthesize từ Phase 1+2)
+skill-research.md                       ← Final output (Claude synthesize từ S1–S7)
 CLAUDE.md                               ← Project rules (Claude maintain)
 ```
