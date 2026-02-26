@@ -28,7 +28,7 @@ export function CoverSlide() {
           className="text-white/90 mt-[1.5%]"
           style={{ fontSize: 'clamp(20px, 2.5vw, 48px)' }}
         >
-          Marketplace Skill AI Agent đầu tiên trên BSC với Creator Economics
+          Skill Market & Bonding Curve Shares cho AI Agent trên BNB Chain
         </p>
         <p
           className="text-white/75 mt-[2%]"

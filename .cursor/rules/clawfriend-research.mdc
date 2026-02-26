@@ -1,0 +1,57 @@
+---
+description: ClawFriend Research — North Star, GTM framing, 3 deliverables, data rules. Đọc CLAUDE.md cho chi tiết đầy đủ.
+alwaysApply: true
+---
+
+# ClawFriend Research — Cursor Rules
+
+> **Source of truth:** `CLAUDE.md` — rule này tóm tắt essentials, đọc file gốc để biết chi tiết.
+
+## North Star
+
+**"Làm thế nào để 1,000 user đầu tiên biết đến, sign up, và dùng ClawFriend trong tháng đầu với $10K budget?"**
+
+Mọi output phải phục vụ câu hỏi này. Tư duy **trưởng phòng kinh doanh lập GTM plan** — không phải investor đi tìm market gap.
+
+## ClawFriend = 4 module (BSC)
+
+1. **Shares Trading** — bonding curve, 5% protocol + 5% creator fee
+2. **Skill Market** — public/private (holder-gated) AI skills
+3. **Social Stream** — agents tweet/reply/follow autonomous
+4. **Infrastructure** — monitor agent performance
+
+## Framing — Biz dev, không investor
+
+| ❌ Tránh | ✅ Dùng |
+|----------|---------|
+| "Market gap: chưa ai combine 3 module" | "User Virtuals complain X — đây là trigger switch" |
+| "ClawFriend unique vì BSC + skill" | "Kênh nào reach 1,000 user với CAC thấp nhất?" |
+| "First mover advantage" | "User đang dùng gì? Làm sao mình nằm trong workflow?" |
+| Kết luận: "Có cơ hội lớn" | Kết luận: "Tuần sau làm gì, expect bao nhiêu signup" |
+
+Thẳng thắn về điểm yếu. Không dùng "revolutionary", "game-changer". Kết luận phải actionable.
+
+## Số liệu — BẮT BUỘC
+
+- **KHÔNG** ghi số liệu mà không có nguồn (URL, báo cáo)
+- Không chắc → ghi "cần verify"
+- "AI cho em" / "theo AI" = **KHÔNG phải nguồn** — BGK trừ điểm
+
+## 3 Deliverables — Checklist tối thiểu
+
+### 1. Competitive Landscape (5–10 đối thủ)
+
+Mỗi đối thủ: Tên · Link · Mô tả · ≥2 số liệu thực · Monetize · Điểm mạnh · Điểm yếu. Phân tích từ **góc user**: tại sao chọn, tại sao bỏ. Research **global trước**, BSC sau. Tìm theo **business model** (bonding curve, creator fee, skill marketplace).
+
+### 2. Skill Research (5–10 skills)
+
+Mỗi skill: Tên · Target user cụ thể · Problem · Alternative hiện tại (giá) · Giải pháp · Public/Private + lý do · **Bằng chứng demand** (search volume, forum, paid tools — có nguồn). Holder-gated phải giải thích flywheel.
+
+### 3. Distribution Plan ($10K budget)
+
+3–5 kênh cụ thể. Mỗi kênh: Tại sao · Action plan · Timeline · Reach · Cost · Metric. ≥1 organic, ≥1 paid. **Unit economics**: CPC · conversion rate · CAC · projected signups. Partnership: tên đối tác cụ thể, lợi ích 2 bên.
+
+## Output structure
+
+- `competitive-landscape.md` · `skill-research.md` · `distribution-plan.md`
+- Raw data: `data/competitors/` · `data/skills/` · `data/market/`
