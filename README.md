@@ -29,7 +29,7 @@ Repo này là bộ tài liệu research + GTM strategy để trả lời câu h�
 
 ## Web Presentation
 
-> Link: _[Gemini Canvas — cần cập nhật]_
+> Link: [https://marketplace-research.vercel.app/](https://marketplace-research.vercel.app/)
 
 ---
 
