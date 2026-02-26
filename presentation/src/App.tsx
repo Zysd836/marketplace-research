@@ -13,6 +13,16 @@ import {
   Slide10,
   Slide11,
   Slide12,
+  Slide13,
+  Slide14,
+  Slide15,
+  Slide16,
+  Slide17,
+  Slide18,
+  Slide19,
+  Slide20AIShowcase,
+  Slide21AIShowcase,
+  Slide22AIShowcase,
 } from './components/Slides'
 
 export default function App() {
@@ -32,6 +42,16 @@ export default function App() {
         <Slide10 key="s10" />,
         <Slide11 key="s11" />,
         <Slide12 key="s12" />,
+        <Slide13 key="s13" />,
+        <Slide14 key="s14" />,
+        <Slide15 key="s15" />,
+        <Slide16 key="s16" />,
+        <Slide17 key="s17" />,
+        <Slide18 key="s18" />,
+        <Slide19 key="s19" />,
+        <Slide20AIShowcase key="ai1" />,
+        <Slide21AIShowcase key="ai2" />,
+        <Slide22AIShowcase key="ai3" />,
       ]}
     />
   )

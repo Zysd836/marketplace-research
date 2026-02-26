@@ -31,8 +31,8 @@ export function SlideLayout({
       <div className="relative z-10 flex flex-col h-full px-[5.2%] pt-[4%] pb-[5%]">
         {header}
         <main
-          className={`flex-1 min-h-0 flex flex-col px-[4%] pb-[3%] ${scrollable ? 'overflow-y-auto' : ''} ${mainClassName}`}
-          style={{ fontSize: 'clamp(12px, 1.05vw, 20px)' }}
+          className={`flex-1 min-h-0 flex flex-col w-full max-w-[95vw] sm:max-w-[1480px] px-[2%] sm:px-[4%] mx-auto pb-[3%] ${scrollable ? 'overflow-auto' : ''} ${mainClassName}`}
+          style={{ fontSize: 'clamp(11px, 1vw, 14px)' }}
         >
           {children}
         </main>
