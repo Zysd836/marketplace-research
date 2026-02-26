@@ -368,7 +368,7 @@ export function Slide8() {
   const points = [
     'Scale gap vs Moltbook — 1M+ agents vs early stage',
     'Friction cao hơn — BNB gas + Twitter verification',
-    'Skill Market trống lúc launch — Risk #1. Cần populate trước launch.',
+    'Skill Market chưa có "lý do quay lại" — Risk #1. Đã build nhưng thiếu skill chất lượng.',
   ]
 
   return (
@@ -396,7 +396,7 @@ export function Slide8() {
               Action Plan
             </h3>
             <p className="text-white/90" style={{ fontSize: 'clamp(18px, 1.6vw, 24px)' }}>
-              Populate Skill Market với 10+ quality skills trước khi launch.
+              Thêm 10+ skill chất lượng vào Skill Market trước khi launch.
             </p>
           </div>
         </div>
@@ -540,21 +540,6 @@ export function Slide11() {
           <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(24px, 2.6vw, 40px)' }}>
             Flywheel Holder-Gated
           </h2>
-          <div className="flex items-center gap-1.5 flex-wrap">
-            {steps.map((s, i) => (
-              <span key={i} className="flex items-center gap-1.5">
-                <span
-                  className="rounded-full px-2.5 py-1 font-medium shrink-0 bg-white/5 border border-[rgba(210,255,85,0.3)]"
-                  style={{ fontSize: 'clamp(13px, 1.25vw, 17px)', color: lime }}
-                >
-                  {s.title}
-                </span>
-                {i < steps.length - 1 && (
-                  <span className="text-white/35 font-light hidden sm:inline" style={{ fontSize: 'clamp(14px, 1.35vw, 19px)' }}>→</span>
-                )}
-              </span>
-            ))}
-          </div>
           <ul className="flex flex-col gap-2">
             {steps.map(({ title, desc }, i) => (
               <li key={i} className="flex gap-2.5 items-start py-1.5 border-b border-white/5 last:border-0">
@@ -941,10 +926,10 @@ export function Slide18() {
 
 /** Slide 19 — Action items & Kết luận */
 export function Slide19() {
-  const beforeLaunch = ['Populate Skill Market 10+ skills', 'Communicate instant key revocation (DeFi user concern)']
+  const beforeLaunch = ['Thêm 10+ skill chất lượng vào Skill Market', 'Communicate instant key revocation (DeFi user concern)']
   const week1 = ['Reach OpenClaw community', 'Đặt narrative "Virtuals but with utility"']
   const month1 = ['Target Dune/Nansen frustrated users ($75–200/mo budget)']
-  const risk = 'Skill Market trống = Virtuals/Cooker failure mode. Điền content trước organic growth.'
+  const risk = 'Marketplace đã build nhưng thiếu skill chất lượng = không có lý do quay lại = Virtuals/Cooker failure mode.'
 
   const cardClass = 'glass rounded-lg p-3 flex-1'
   const headClass = 'text-lime font-semibold mb-1.5 flex gap-2 items-center'

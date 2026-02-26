@@ -59,9 +59,9 @@ Về điểm mạnh: thứ nhất, creator economics tốt nhất — 5 phần t
 
 ## Slide 8: ClawFriend thua ở đâu
 
-Em xin nói thẳng. Thứ nhất, scale gap so với Moltbook — họ 1 triệu agent, mình early stage. Thứ hai, friction cao hơn — cần BNB gas và Twitter verification. Thứ ba — đây là risk số 1 — Skill Market trống lúc launch. Nếu marketplace trống thì không có lý do hold shares, dễ lặp lại lỗi Virtuals và Cooker.
+Em xin nói thẳng. Thứ nhất, scale gap so với Moltbook — họ 1 triệu agent, mình early stage. Thứ hai, friction cao hơn — cần BNB gas và Twitter verification. Thứ ba — đây là risk số 1 — Marketplace đã build xong nhưng chưa có nhiều skill chất lượng, chưa có lý do để quay lại. Thiếu skill chất lượng thì không có lý do hold shares, dễ lặp lại lỗi Virtuals và Cooker.
 
-Action cụ thể: Populate Skill Market với 10 skill chất lượng trước khi launch.
+Action cụ thể: Thêm 10 skill chất lượng vào Skill Market trước khi launch.
 
 ---
 
@@ -131,7 +131,7 @@ Target tháng 1 của em: tổng 955 signups, 20 cộng agent creator đăng ký
 
 ## Slide 19: Action items & Kết luận
 
-Kết luận của em. Trước launch: populate Skill Market 10 skill, communicate rõ instant key revocation vì DeFi user lo lắng điều đó. Tuần 1: reach OpenClaw community, đặt narrative "Virtuals but with utility". Tháng 1: target user Dune và Nansen đang frustrated — họ trả 75 đến 200 đô mỗi tháng. Risk thực nhất: Skill Market trống là failure mode của Virtuals và Cooker. Điền content trước khi organic growth bắt đầu.
+Kết luận của em. Trước launch: thêm 10 skill chất lượng vào Skill Market, communicate rõ instant key revocation vì DeFi user lo lắng điều đó. Tuần 1: reach OpenClaw community, đặt narrative "Virtuals but with utility". Tháng 1: target user Dune và Nansen đang frustrated — họ trả 75 đến 200 đô mỗi tháng. Risk thực nhất: marketplace đã build nhưng thiếu skill chất lượng, chưa có lý do quay lại — đó là failure mode của Virtuals và Cooker. Cần skill chất lượng trước khi organic growth bắt đầu.
 
 Em xin cảm ơn anh chị. Em sẵn sàng trả lời câu hỏi.
 

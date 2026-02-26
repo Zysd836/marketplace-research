@@ -107,9 +107,9 @@ flowchart LR
 ## Slide 8: ClawFriend thua ở đâu (honest)
 1. **Scale gap vs Moltbook** — 1M+ agents vs early stage  
 2. **Friction cao hơn** — BNB gas + Twitter verification  
-3. **Skill Market trống lúc launch** — Risk #1. Cần populate trước launch.
+3. **Skill Market chưa có "lý do để quay lại"** — Risk #1. Marketplace đã build nhưng chưa có nhiều skill chất lượng.
 
-**Action:** Populate Skill Market với 10+ quality skills trước khi launch.
+**Action:** Thêm 10+ skill chất lượng vào Skill Market trước khi launch.
 
 ---
 
@@ -261,13 +261,13 @@ Bot deploy    BSCWhalePumps 2+ creators  Monthly wrap
 
 ## Slide 19: Action items & Kết luận
 **Trước launch:**  
-- Populate Skill Market 10+ skills  
+- Thêm 10+ skill chất lượng vào Skill Market  
 - Communicate instant key revocation (DeFi user concern)  
 
 **Tuần 1:** Reach OpenClaw community; Đặt narrative "Virtuals but with utility"  
 **Tháng 1:** Target Dune/Nansen frustrated users ($75–200/mo budget)  
 
-**Risk thực nhất:** Skill Market trống = Virtuals/Cooker failure mode. Điền content trước organic growth.
+**Risk thực nhất:** Marketplace đã build nhưng thiếu skill chất lượng = không có lý do quay lại = Virtuals/Cooker failure mode.
 
 ---
 

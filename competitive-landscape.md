@@ -324,13 +324,13 @@ PancakeSwap 500K+ daily users, 80%+ BSC users là retail DeFi traders — đây 
 
 **2. Friction cao hơn** — BNB gas + Twitter verification. Phù hợp crypto-native, không phải mainstream. Không nên cố fight Moltbook ở mainstream — focus vào crypto-native segment.
 
-**3. Skill Market trống lúc launch** — Đây là risk #1. Marketplace trống = không có lý do để hold shares = lặp lại lỗi của Virtuals và Cooker. Cần populate trước launch.
+**3. Skill Market chưa có "lý do để quay lại"** — Đây là risk #1. Marketplace đã build xong nhưng chưa có nhiều skill chất lượng. Thiếu skill chất lượng = không có lý do hold shares / quay lại = lặp lại lỗi của Virtuals và Cooker. Cần thêm skill chất lượng để tạo retention.
 
 ### Action items từ phân tích này
 
 | Ưu tiên | Action | Căn cứ |
 |---|---|---|
-| 🔴 Trước launch | Populate Skill Market với 10+ quality skills | Marketplace trống = Virtuals/Cooker failure mode |
+| 🔴 Trước launch | Thêm 10+ skill chất lượng vào Skill Market | Thiếu skill chất lượng = không có lý do quay lại = Virtuals/Cooker failure mode |
 | 🔴 Trước launch | Communicate rõ instant key revocation trên landing | DeFi user concern: *"Can it be revoked?"* — ClawFriend có answer, cần show |
 | 🟠 Tuần 1 | Reach OpenClaw developer community | 135K GitHub stars, zero cost, highest intent users |
 | 🟠 Tuần 1 | Đặt ClawFriend trong narrative "Virtuals but with utility" | User đang tìm Virtuals alternative — capture intent đó |
@@ -338,4 +338,4 @@ PancakeSwap 500K+ daily users, 80%+ BSC users là retail DeFi traders — đây 
 
 ---
 
-*Risk thực nhất của ClawFriend không phải competition — Cooker stalled, Virtuals declining. Risk thực là việc populate Skill Market với content đủ chất lượng để giữ early holders qua giai đoạn trước khi organic growth bắt đầu.*
+*Risk thực nhất của ClawFriend không phải competition — Cooker stalled, Virtuals declining. Risk thực là: Marketplace đã build xong nhưng chưa có nhiều skill chất lượng, chưa có "lý do để quay lại". Cần skill chất lượng để giữ early holders qua giai đoạn trước khi organic growth bắt đầu.*
