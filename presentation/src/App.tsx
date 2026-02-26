@@ -1,5 +1,4 @@
 import { Presentation } from './components/Presentation'
-import { CoverSlide } from './components/CoverSlide'
 import {
   Slide1,
   Slide2,
@@ -19,7 +18,6 @@ import {
   Slide16,
   Slide17,
   Slide18,
-  Slide19,
   Slide20AIShowcase,
   Slide21AIShowcase,
   Slide22AIShowcase,
@@ -29,7 +27,6 @@ export default function App() {
   return (
     <Presentation
       slides={[
-        <CoverSlide key="cover" />,
         <Slide1 key="s1" />,
         <Slide2 key="s2" />,
         <Slide3 key="s3" />,
@@ -48,7 +45,6 @@ export default function App() {
         <Slide16 key="s16" />,
         <Slide17 key="s17" />,
         <Slide18 key="s18" />,
-        <Slide19 key="s19" />,
         <Slide20AIShowcase key="ai1" />,
         <Slide21AIShowcase key="ai2" />,
         <Slide22AIShowcase key="ai3" />,

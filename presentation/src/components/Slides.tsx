@@ -3,59 +3,46 @@
  * Slide 1: Bìa + North Star
  * Slide 2: Agenda
  */
-import { BarChart3, Target, Zap, Rocket, DollarSign, Layers, Github, TrendingUp, ShieldCheck, Wallet, Gift, Users, Calendar, Megaphone, CheckCircle2, Download, Bot, Sparkles, Search, FileText } from 'lucide-react'
+import { BarChart3, Target, Zap, Rocket, DollarSign, Layers, Github, TrendingUp, ShieldCheck, Wallet, Gift, Users, Megaphone, Download, Bot, Sparkles, Search, FileText } from 'lucide-react'
 import { ContentSlideLayout } from './ContentSlideLayout'
 import { SlideLayout } from './SlideLayout'
 import { SlideHeader } from './SlideHeader'
 import { SlideFooter } from './SlideFooter'
 import { VIDEOS } from '../constants/videos'
 
-const whiteAlpha = (a: number) => `rgba(255,255,255,${a})`
-
-/** Slide 1 — Bìa + North Star */
+/** Slide 1 — Bìa (content từ CoverSlide) */
 export function Slide1() {
   return (
     <SlideLayout
       videoSrc={VIDEOS[0]}
-      header={<SlideHeader center="Pitch Deck" right="Trang 001" />}
-      footer={<SlideFooter single="ClawFriend GTM Plan · Feb 2026" />}
+      header={<SlideHeader right="Pitch Deck" compact />}
+      footer={
+        <SlideFooter
+          left="BNB Smart Chain · AI Agent Platform · Feb 2026"
+          right="Akira · CLAWFRIEND"
+        />
+      }
       scrollable={false}
       mainClassName="justify-center"
     >
-      <div style={{ marginTop: '-2%' }} className="flex flex-col gap-[2%]">
+      <div style={{ marginTop: '-3%' }}>
         <h1
-          className="text-white font-bold tracking-[-0.02em] leading-[1.1]"
-          style={{ fontSize: 'clamp(42px, 6.2vw, 92px)' }}
+          className="text-white font-bold tracking-[-0.02em] leading-[1.05]"
+          style={{ fontSize: 'clamp(32px, 5vw, 96px)' }}
         >
-          ClawFriend — GTM Plan Tháng Đầu
+          ClawFriend
         </h1>
         <p
-          className="text-white/90"
-          style={{ fontSize: 'clamp(24px, 2.9vw, 48px)' }}
+          className="text-white/90 mt-[1.5%]"
+          style={{ fontSize: 'clamp(20px, 2.5vw, 48px)' }}
         >
-          Web3 AI Agent Platform trên BSC
+          Skill Market & Bonding Curve Shares cho AI Agent trên BNB Chain
         </p>
         <p
-          className="text-white/75"
-          style={{ fontSize: 'clamp(18px, 1.8vw, 28px)' }}
+          className="text-white/75 mt-[2%]"
+          style={{ fontSize: 'clamp(14px, 1.2vw, 20px)' }}
         >
-          Phân tích: Competitive Landscape · Skill Research · Distribution Plan
-        </p>
-        <blockquote
-          className="border-l-4 pl-4 py-2 mt-[1%]"
-          style={{
-            borderColor: 'rgba(210,255,85,0.5)',
-            fontSize: 'clamp(21px, 2.1vw, 34px)',
-            color: whiteAlpha(0.9),
-          }}
-        >
-          Làm thế nào để 1.000 user đầu tiên biết đến, sign up và dùng ClawFriend trong tháng đầu với $10K budget?
-        </blockquote>
-        <p
-          className="text-white/55 italic mt-[0.5%]"
-          style={{ fontSize: 'clamp(19px, 1.8vw, 28px)' }}
-        >
-          Tư duy Biz Dev — lập GTM plan, không phải investor đi tìm market gap.
+          Market Research · Skill Strategy · Distribution Plan
         </p>
       </div>
     </SlideLayout>
@@ -919,69 +906,6 @@ export function Slide18() {
         <p className="text-white/50 italic text-center shrink-0 mt-auto pt-2" style={{ fontSize: sz.footer }}>
           * Target 400+ Organic signups & 2.000+ Twitter Followers.
         </p>
-      </div>
-    </ContentSlideLayout>
-  )
-}
-
-/** Slide 19 — Action items & Kết luận */
-export function Slide19() {
-  const beforeLaunch = ['Thêm 10+ skill chất lượng vào Skill Market', 'Communicate instant key revocation (DeFi user concern)']
-  const week1 = ['Reach OpenClaw community', 'Đặt narrative "Virtuals but with utility"']
-  const month1 = ['Target Dune/Nansen frustrated users ($75–200/mo budget)']
-  const risk = 'Marketplace đã build nhưng thiếu skill chất lượng = không có lý do quay lại = Virtuals/Cooker failure mode.'
-
-  const cardClass = 'glass rounded-lg p-3 flex-1'
-  const headClass = 'text-lime font-semibold mb-1.5 flex gap-2 items-center'
-  const headSz = 17
-  const itemSz = 15
-
-  return (
-    <ContentSlideLayout videoIndex={0} pageLabel="Trang 019" footer="ClawFriend GTM Plan">
-      <div className="flex flex-col gap-3 rounded-xl p-4">
-        <h2 className="text-white font-bold" style={{ fontSize: 28 }}>
-          Action items & Kết luận
-        </h2>
-
-        <div className="flex flex-row gap-3 w-full">
-          <div className={cardClass}>
-            <h3 className={headClass} style={{ fontSize: headSz }}>
-              <CheckCircle2 size={16} strokeWidth={2} /> Trước launch
-            </h3>
-            <ul className="space-y-1">
-              {beforeLaunch.map((item, i) => (
-                <li key={i} className="text-white/85" style={{ fontSize: itemSz }}>• {item}</li>
-              ))}
-            </ul>
-          </div>
-          <div className={cardClass}>
-            <h3 className={headClass} style={{ fontSize: headSz }}>
-              <Calendar size={16} strokeWidth={2} /> Tuần 1
-            </h3>
-            <ul className="space-y-1">
-              {week1.map((item, i) => (
-                <li key={i} className="text-white/85" style={{ fontSize: itemSz }}>• {item}</li>
-              ))}
-            </ul>
-          </div>
-          <div className={cardClass}>
-            <h3 className={headClass} style={{ fontSize: headSz }}>
-              <Rocket size={16} strokeWidth={2} /> Tháng 1
-            </h3>
-            <ul className="space-y-1">
-              {month1.map((item, i) => (
-                <li key={i} className="text-white/85" style={{ fontSize: itemSz }}>• {item}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        <div className="glass rounded-lg p-3 border border-amber-500/40 bg-amber-500/5">
-          <h3 className="text-amber-400 font-semibold mb-1" style={{ fontSize: headSz }}>
-            Risk thực nhất
-          </h3>
-          <p className="text-white/90 leading-relaxed" style={{ fontSize: itemSz }}>{risk}</p>
-        </div>
       </div>
     </ContentSlideLayout>
   )

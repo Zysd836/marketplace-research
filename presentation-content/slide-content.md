@@ -1,5 +1,5 @@
 # ClawFriend GTM Plan — Kế hoạch Go-to-Market
-## Nội dung trình bày (19 slides)
+## Nội dung trình bày (18 slides)
 
 ---
 
@@ -7,12 +7,6 @@
 **ClawFriend — GTM Plan Tháng Đầu**  
 *Web3 AI Agent Platform trên BSC*  
 *Phân tích: Competitive Landscape · Skill Research · Distribution Plan*
-
-**Câu hỏi trung tâm:**
-> Làm thế nào để 1.000 user đầu tiên biết đến, sign up và dùng ClawFriend trong tháng đầu với $10K budget?
-
-*Tư duy Biz Dev — lập GTM plan, không phải investor đi tìm market gap.*
-
 ---
 
 ## Slide 2: Agenda
@@ -256,18 +250,6 @@ Bot deploy    BSCWhalePumps 2+ creators  Monthly wrap
 | Organic signups | 400+ |
 
 *Gợi ý trực quan: KPI dashboard — 6 ô, mỗi ô 1 metric + số target. Có thể thêm progress bar 0–100% nếu có baseline hiện tại.*
-
----
-
-## Slide 19: Action items & Kết luận
-**Trước launch:**  
-- Thêm 10+ skill chất lượng vào Skill Market  
-- Communicate instant key revocation (DeFi user concern)  
-
-**Tuần 1:** Reach OpenClaw community; Đặt narrative "Virtuals but with utility"  
-**Tháng 1:** Target Dune/Nansen frustrated users ($75–200/mo budget)  
-
-**Risk thực nhất:** Marketplace đã build nhưng thiếu skill chất lượng = không có lý do quay lại = Virtuals/Cooker failure mode.
 
 ---
 
