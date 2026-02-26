@@ -255,50 +255,7 @@ export function Slide5() {
   )
 }
 
-/** Slide 6 — Bài học friend.tech — Tại sao ClawFriend khác? */
-export function Slide6() {
-  return (
-    <ContentSlideLayout videoIndex={5} pageLabel="Trang 006" footer="Section 1 — Competitive Landscape">
-      <div className="flex gap-6 shrink-0 rounded-xl p-6 items-stretch">
-        <div className="flex flex-col gap-4 flex-1 min-w-0 w-1/2 min-h-0">
-          <div>
-            <h2 className="text-white font-bold" style={{ fontSize: 'clamp(26px, 2.8vw, 44px)' }}>
-              Bài học friend.tech — Tại sao ClawFriend khác?
-            </h2>
-            <p className="text-white/80 mt-1" style={{ fontSize: 'clamp(19px, 1.8vw, 26px)' }}>
-              friend.tech: cùng fee 5%+5%, peak $19.67M/mo → dead trong 3 tháng.
-            </p>
-          </div>
-          <div className="glass rounded-lg p-4 flex flex-col gap-4">
-            <div>
-              <p className="text-white/60 font-semibold uppercase" style={{ fontSize: 'clamp(16px, 1.5vw, 22px)' }}>Root cause</p>
-              <p className="text-white/90 leading-relaxed mt-1" style={{ fontSize: 'clamp(18px, 1.6vw, 24px)' }}>
-                Key = quyền chat creator. Creator dump xong → key mất utility → volume = 0.
-              </p>
-            </div>
-            <div>
-              <p className="text-lime font-semibold uppercase" style={{ fontSize: 'clamp(16px, 1.5vw, 22px)' }}>Tại sao ClawFriend tránh được</p>
-              <ul className="text-white/90 space-y-1.5 mt-1" style={{ fontSize: 'clamp(18px, 1.6vw, 24px)' }}>
-                <li>• <span className="font-medium">Skill Market</span> tạo utility độc lập</li>
-                <li>• <span className="font-medium">Agent autonomous</span> — không cần human online</li>
-                <li>• <span className="font-medium">Quadratic curve + 10% round-trip</span> — math không khuyến khích dump</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="flex-shrink-0 w-1/2 min-h-0 rounded-xl overflow-hidden flex">
-          <img
-            src="https://pixelplex.io/wp-content/uploads/2025/09/1600x700_Agentic-AI-in-Healthcare-min.jpg"
-            alt="Agentic AI"
-            className="w-full h-full object-cover"
-          />
-        </div>
-      </div>
-    </ContentSlideLayout>
-  )
-}
-
-/** Slide 7 — ClawFriend thắng ở đâu */
+/** Slide 6 — ClawFriend thắng ở đâu */
 const slide7Cards = [
   {
     icon: <DollarSign size={32} strokeWidth={2} />,
@@ -327,7 +284,7 @@ const slide7Cards = [
 
 export function Slide7() {
   return (
-    <ContentSlideLayout videoIndex={0} pageLabel="Trang 007" footer="Section 1 — Competitive Landscape">
+    <ContentSlideLayout videoIndex={0} pageLabel="Trang 006" footer="Section 1 — Competitive Landscape">
       <div className="flex flex-col gap-5 flex-1 rounded-xl p-6">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(28px, 3vw, 48px)' }}>
           ClawFriend thắng ở đâu
@@ -359,7 +316,7 @@ export function Slide8() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={1} pageLabel="Trang 008" footer="Section 1 — Competitive Landscape">
+    <ContentSlideLayout videoIndex={1} pageLabel="Trang 007" footer="Section 1 — Competitive Landscape">
       <div className="flex flex-col gap-4 rounded-xl p-6">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(28px, 3vw, 48px)' }}>
           ClawFriend thua ở đâu (honest)
@@ -403,7 +360,7 @@ export function Slide9() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={2} pageLabel="Trang 009" footer="Section 2 — Skill Research">
+    <ContentSlideLayout videoIndex={2} pageLabel="Trang 008" footer="Section 2 — Skill Research">
       <div className="flex flex-col gap-4 flex-1 rounded-xl p-6 overflow-auto">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(28px, 3vw, 48px)' }}>
           Skill Market — 5 skill tháng đầu
@@ -460,7 +417,7 @@ export function Slide10() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={3} pageLabel="Trang 010" footer="Section 2 — Skill Research">
+    <ContentSlideLayout videoIndex={3} pageLabel="Trang 009" footer="Section 2 — Skill Research">
       <div className="flex gap-6 min-h-0 flex-col lg:flex-row">
         <div className="glass rounded-xl flex flex-col gap-2 flex-1 min-w-0 overflow-auto p-4">
           <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(24px, 2.6vw, 40px)' }}>
@@ -521,7 +478,7 @@ export function Slide11() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={4} pageLabel="Trang 011" footer="Section 2 — Skill Research">
+    <ContentSlideLayout videoIndex={4} pageLabel="Trang 010" footer="Section 2 — Skill Research">
       <div className="flex gap-6 rounded-xl overflow-hidden min-h-0">
         <div className="glass rounded-xl p-5 flex flex-col gap-3 w-1/2 min-w-0 overflow-auto border border-white/10">
           <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(24px, 2.6vw, 40px)' }}>
@@ -578,7 +535,7 @@ export function Slide12() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={5} pageLabel="Trang 012" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={5} pageLabel="Trang 011" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col gap-3 flex-1 min-h-0 rounded-xl p-6 overflow-auto">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(28px, 3vw, 48px)' }}>
           Phân bổ ngân sách — $10.000
@@ -626,7 +583,7 @@ const slide13Channels = [
 
 export function Slide13() {
   return (
-    <ContentSlideLayout videoIndex={0} pageLabel="Trang 013" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={0} pageLabel="Trang 012" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col gap-3 flex-1 min-h-0 rounded-xl p-4 sm:p-5">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(24px, 2.6vw, 42px)' }}>
           5 kênh acquisition chi tiết
@@ -647,55 +604,7 @@ export function Slide13() {
   )
 }
 
-/** Slide 14 — Unit economics — Trả lời BGK */
-export function Slide14() {
-  const rows = [
-    { line: '$4K Twitter', calc: '4K clicks → CVR 2% = 80 signups' },
-    { line: '$3.5K Telegram', calc: '430K reach → CTR 1.5% → CVR 5% = 325 signups' },
-    { line: '$0 Organic (Bot+Social)', calc: '~200 signups' },
-    { line: '$0 Content/Community', calc: '~200 signups' },
-    { line: '$2K Referral', calc: '$10 BNB/signup = 150+ signups' },
-  ]
-
-  return (
-    <ContentSlideLayout videoIndex={1} pageLabel="Trang 014" footer="Section 3 — Distribution Plan">
-      <div className="flex flex-col gap-3 flex-1 min-h-0 rounded-xl p-4 sm:p-5 overflow-auto">
-        <h2 className="text-white font-bold text-center shrink-0" style={{ fontSize: 'clamp(26px, 2.9vw, 48px)' }}>
-          "$10K có đủ 1.000 user không?"
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 flex-1 min-h-0">
-          {/* Cột trái 50% */}
-          <div className="flex flex-col gap-3 min-w-0">
-            <div className="shrink-0">
-              <span className="text-lime font-bold" style={{ fontSize: 'clamp(42px, 4.6vw, 74px)' }}>955</span>
-              <p className="text-white/70 uppercase tracking-wider mt-0.5" style={{ fontSize: 'clamp(13px, 1.2vw, 17px)' }}>Est. Signups</p>
-            </div>
-            <hr className="border-t border-white/20 my-1" />
-            <p className="text-white/90 font-medium shrink-0" style={{ fontSize: 'clamp(15px, 1.4vw, 20px)' }}>
-              Unit Economics Conservative
-            </p>
-            <div className="flex-1 min-h-0" />
-            <p className="text-lime font-semibold shrink-0 pt-2" style={{ fontSize: 'clamp(15px, 1.4vw, 20px)' }}>
-              Blended CAC = $10.47. Không tính viral.
-            </p>
-          </div>
-
-          {/* Cột phải 50% */}
-          <div className="glass rounded-lg p-4 flex flex-col gap-2 min-h-0 overflow-auto">
-            {rows.map((r, i) => (
-              <div key={i} className="border-b border-white/5 pb-2 last:border-0 last:pb-0">
-                <p className="text-white font-medium" style={{ fontSize: 'clamp(16px, 1.5vw, 22px)' }}>{r.line}</p>
-                <p className="text-white/80 mt-0.5" style={{ fontSize: 'clamp(13px, 1.2vw, 17px)' }}>{r.calc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </ContentSlideLayout>
-  )
-}
-
-/** Slide 15 — Timeline tháng 1 — Tuần 1 */
+/** Slide 13 — Timeline tháng 1 — Tuần 1 */
 export function Slide15() {
   const preLaunch = [
     'Setup Twitter, Telegram, UTM',
@@ -710,7 +619,7 @@ export function Slide15() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={2} pageLabel="Trang 015" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={2} pageLabel="Trang 013" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col gap-3 flex-1 min-h-0 rounded-xl p-4 sm:p-5 overflow-auto">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: 'clamp(24px, 2.6vw, 42px)' }}>
           Timeline tháng 1 — Tuần 1
@@ -759,10 +668,10 @@ export function Slide16() {
   const positions = ['bottom', 'top', 'bottom', 'top'] as const
 
   return (
-    <ContentSlideLayout videoIndex={3} pageLabel="Trang 016" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={3} pageLabel="Trang 014" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col flex-1 min-h-0 rounded-xl p-4 sm:p-5 overflow-x-hidden overflow-y-auto">
         <h2 className="text-white font-bold shrink-0 mb-4" style={{ fontSize: 'clamp(24px, 2.6vw, 42px)' }}>
-          Timeline tháng 1 — Scale & Optimize
+          Timeline tháng 1 — Tuần 2–4
         </h2>
         <div className="relative flex-1 min-h-[280px] sm:min-h-[320px] overflow-x-hidden">
           {/* Rail line */}
@@ -818,7 +727,7 @@ export function Slide17() {
   ]
 
   return (
-    <ContentSlideLayout videoIndex={4} pageLabel="Trang 017" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={4} pageLabel="Trang 015" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col gap-3 flex-1 min-h-0 rounded-xl p-4 sm:p-5">
         <div className="shrink-0">
           <h2 className="text-white font-bold" style={{ fontSize: 'clamp(24px, 2.6vw, 42px)' }}>
@@ -875,7 +784,7 @@ export function Slide18() {
   }
 
   return (
-    <ContentSlideLayout videoIndex={5} pageLabel="Trang 018" footer="Section 3 — Distribution Plan">
+    <ContentSlideLayout videoIndex={5} pageLabel="Trang 016" footer="Section 3 — Distribution Plan">
       <div className="flex flex-col gap-4 min-h-0 rounded-xl p-4 sm:p-5">
         <h2 className="text-white font-bold shrink-0" style={{ fontSize: sz.title }}>
           Metrics Dashboard — Target Tháng 1

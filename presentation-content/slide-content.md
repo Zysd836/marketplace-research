@@ -1,5 +1,5 @@
 # ClawFriend GTM Plan — Kế hoạch Go-to-Market
-## Nội dung trình bày (18 slides)
+## Nội dung trình bày (16 slides)
 
 ---
 
@@ -64,33 +64,7 @@ Thị trường AI agent economy có demand thực nhưng chưa platform nào gi
 
 ---
 
-## Slide 6: Bài học friend.tech — Tại sao ClawFriend khác?
-**friend.tech:** cùng fee 5%+5%, peak $19.67M/mo → dead trong 3 tháng.
-
-**Root cause:** Key = quyền chat creator. Creator dump xong → key mất utility → volume = 0.
-
-**Tại sao ClawFriend tránh được:**
-- **Skill Market** tạo utility độc lập — agent có skills tốt thì holder giữ shares dù creator im lặng
-- **Agent autonomous** — không cần human online để có giá trị
-- **Quadratic curve + 10% round-trip** — math không khuyến khích dump
-
-```mermaid
-flowchart LR
-    subgraph friend_tech["friend.tech - FAIL"]
-        A1[Creator dump shares] --> A2[Key mất utility]
-        A2 --> A3[Buyer mất tiền]
-        A3 --> A4[Volume = 0]
-    end
-    subgraph clawfriend["ClawFriend - OK"]
-        B1[Skill utility độc lập] --> B2[Holder giữ shares]
-        B2 --> B3[Agent autonomous]
-        B3 --> B4[Volume sustain]
-    end
-```
-
----
-
-## Slide 7: ClawFriend thắng ở đâu
+## Slide 6: ClawFriend thắng ở đâu
 1. **Creator economics tốt nhất:** 5% perpetual fee trực tiếp mỗi trade  
    - $10K daily volume = creator earn $500/ngày = $15K/tháng passive  
 2. **BSC = đúng thị trường:** PancakeSwap 500K+ daily users, retail DeFi  
@@ -98,7 +72,7 @@ flowchart LR
 
 ---
 
-## Slide 8: ClawFriend thua ở đâu (honest)
+## Slide 7: ClawFriend thua ở đâu (honest)
 1. **Scale gap vs Moltbook** — 1M+ agents vs early stage  
 2. **Friction cao hơn** — BNB gas + Twitter verification  
 3. **Skill Market chưa có "lý do để quay lại"** — Risk #1. Marketplace đã build nhưng chưa có nhiều skill chất lượng.
@@ -107,7 +81,7 @@ flowchart LR
 
 ---
 
-## Slide 9: Skill Market — 5 skill tháng đầu
+## Slide 8: Skill Market — 5 skill tháng đầu
 | # | Skill | Target user | Alternative hiện tại | Holder-gated value |
 |---|-------|-------------|----------------------|-------------------|
 | 1 | BSC Smart Money Tracker | Swing trader $10K–100K | Nansen $69+/mo | Real-time vs delay 15 phút |
@@ -125,7 +99,7 @@ flowchart LR
 
 ---
 
-## Slide 10: Bằng chứng demand — Skill
+## Slide 9: Bằng chứng demand — Skill
 - **Smart Money:** 80K+ search "whale alert crypto"/tháng; @lookonchain 1.2M followers  
 - **Token Safety:** 40K search "BSC rug check"/tháng; Token Sniffer 1M+ scan/tháng  
 - **Yield:** Beefy mất 97% TVL BSC ($300M→$10M) — user rời vì phí cao  
@@ -138,7 +112,7 @@ flowchart LR
 
 ---
 
-## Slide 11: Flywheel Holder-Gated
+## Slide 10: Flywheel Holder-Gated
 
 ```mermaid
 flowchart LR
@@ -153,7 +127,7 @@ flowchart LR
 
 ---
 
-## Slide 12: Phân bổ ngân sách — $10.000
+## Slide 11: Phân bổ ngân sách — $10.000
 | Kênh | Loại | Budget | Est. Signups | CAC |
 |------|------|--------|--------------|-----|
 | Twitter/X Paid Ads | Paid | $4.000 | ~80 | $50 |
@@ -168,7 +142,7 @@ flowchart LR
 
 ---
 
-## Slide 13: 5 kênh acquisition chi tiết
+## Slide 12: 5 kênh acquisition chi tiết
 1. **Twitter Ads** — Target followers @PancakeSwap, @lookonchain, @ai16zdao; CPC $1, CVR 2%  
 2. **Telegram** — BSCSignalsOfficial (120K), BSCArmyCalls (80K); intent cao, CVR 5%  
 3. **Social Stream** — 6 skill output tự động post; @ClawFriendBot 3 scan free/ngày  
@@ -177,27 +151,7 @@ flowchart LR
 
 ---
 
-## Slide 14: Unit economics — Trả lời BGK
-**"$10K có đủ 1.000 user không?"**
-
-- $4K Twitter → 4.000 clicks (CPC $1) → CVR 2% → **80 signups**  
-- $3.5K Telegram → 430K reach → CTR 1.5% → CVR 5% → **325 signups**  
-- $0 Social Stream + Bot → **~200 organic**  
-- $0 Content + Community → **~200 organic**  
-- $2K Referral → $10 BNB/signup → **150+**  
-
-**Tổng: ~955 signups.** Conservative — không assume viral.
-
-```
-[Gợi ý: Funnel conversion]
-$10K budget → 4K clicks Twitter + 6.5K clicks TG + organic → 80 + 325 + 400 + 150 = 955 signups
-     ↓              ↓                    ↓
-  CPC $1        CVR 2%/5%            Blended CAC $10.47
-```
-
----
-
-## Slide 15: Timeline tháng 1 — Tuần 1
+## Slide 13: Timeline tháng 1 — Tuần 1
 **Ngày 1–2 (Pre-launch):**  
 - Setup Twitter, Telegram, UTM  
 - DM 5 anchor creators + top 20 OpenClaw builders  
@@ -211,7 +165,7 @@ $10K budget → 4K clicks Twitter + 6.5K clicks TG + organic → 80 + 325 + 400 
 
 ---
 
-## Slide 16: Timeline tháng 1 — Tuần 2–4
+## Slide 14: Timeline tháng 1 — Tuần 2–4
 **Tuần 2:** Pause creative thấp, scale thắng; Launch BSCWhalePumps; Post rug pull case study  
 **Tuần 3:** Scale 50% budget creative thắng; 2+ anchor creators publish skill → PR  
 **Tuần 4:** Review metrics; Publish "30 ngày đầu — dữ liệu thực"; Activate referral bounty  
@@ -226,7 +180,7 @@ Bot deploy    BSCWhalePumps 2+ creators  Monthly wrap
 
 ---
 
-## Slide 17: Anchor Creator Recruitment
+## Slide 15: Anchor Creator Recruitment
 **5 creators × 20K followers = 100K potential, $0 CAC**
 
 **Profile lý tưởng:**
@@ -238,7 +192,7 @@ Bot deploy    BSCWhalePumps 2+ creators  Monthly wrap
 
 ---
 
-## Slide 18: Metrics Dashboard — Target tháng 1
+## Slide 16: Metrics Dashboard — Target tháng 1
 | KPI | Target |
 |-----|--------|
 | Total signups | ~955 |
