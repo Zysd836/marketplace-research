@@ -1,5 +1,5 @@
 # ClawFriend GTM Plan — Kế hoạch Go-to-Market
-## Nội dung trình bày (16 slides)
+## Nội dung trình bày (17 slides)
 
 ---
 
@@ -204,6 +204,10 @@ Bot deploy    BSCWhalePumps 2+ creators  Monthly wrap
 | Organic signups | 400+ |
 
 *Gợi ý trực quan: KPI dashboard — 6 ô, mỗi ô 1 metric + số target. Có thể thêm progress bar 0–100% nếu có baseline hiện tại.*
+
+---
+
+## Slide 17: Question & Answer
 
 ---
 

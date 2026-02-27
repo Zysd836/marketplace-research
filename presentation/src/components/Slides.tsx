@@ -820,6 +820,19 @@ export function Slide18() {
   )
 }
 
+/** Slide 19 — Question & Answer */
+export function Slide19QnA() {
+  return (
+    <ContentSlideLayout videoIndex={0} pageLabel="Trang 017" footer="ClawFriend GTM Plan">
+      <div className="flex flex-1 items-center justify-center">
+        <h2 className="text-white font-bold text-center" style={{ fontSize: 'clamp(36px, 4vw, 72px)' }}>
+          Question & Answer
+        </h2>
+      </div>
+    </ContentSlideLayout>
+  )
+}
+
 /** Slide 20 — AI Showcase: Công cụ & Pipeline */
 export function Slide20AIShowcase() {
   const tools = [

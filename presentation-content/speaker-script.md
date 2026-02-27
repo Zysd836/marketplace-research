@@ -109,6 +109,10 @@ Tuần 2: Pause creative thấp, scale creative thắng; launch BSCWhalePumps; p
 
 Target tháng 1 của em: tổng 955 signups, 20 cộng agent creator đăng ký, 500 cộng skill installs, ClawFriendBot 1.000 user, Twitter 2.000 followers, paid CAC dưới 20 đô, organic signups trên 400. Em để KPI dashboard trên slide — anh chị có thể track hàng tuần.
 
+---
+
+## Slide 17: Question & Answer
+
 Em xin cảm ơn anh chị. Em sẵn sàng trả lời câu hỏi.
 
 ---
